@@ -381,12 +381,12 @@ namespace Wit.Example_BWT901BLE
         }
 
         /// <summary>
-        /// 设置回传速率50Hz
-        /// Set the return rate to 50Hz
+        /// 设置回传速率200Hz
+        /// Set the return rate to 200Hz
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void returnRate50_Click(object sender, EventArgs e)
+        private void returnRate200_Click(object sender, EventArgs e)
         {
             for (int i = 0; i < FoundDeviceDict.Count; i++)
             {
@@ -402,7 +402,7 @@ namespace Wit.Example_BWT901BLE
                     // 解锁寄存器并发送命令
                     // Unlock register and send command
                     bWT901BLE.UnlockReg();
-                    bWT901BLE.SetReturnRate(0x08);
+                    bWT901BLE.SetReturnRate(0x0A);
 
                     // 下面两行与上面等价,推荐使用上面的
                     // The following two lines are equivalent to the above, and it is recommended to use the above one
