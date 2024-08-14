@@ -1,9 +1,0 @@
-D:\大创资料\06 传感器程序\VBT.WinForm\obj\Debug\Wit.Example_BWT901BLE.csproj.AssemblyReference.cache
-D:\大创资料\06 传感器程序\VBT.WinForm\obj\Debug\Wit.Example_BWT901BLE.Form1.resources
-D:\大创资料\06 传感器程序\VBT.WinForm\obj\Debug\Wit.Example_BWT901BLE.Properties.Resources.resources
-D:\大创资料\06 传感器程序\VBT.WinForm\obj\Debug\Wit.Example_BWT901BLE.Form1.zh-CN.resources
-D:\大创资料\06 传感器程序\VBT.WinForm\obj\Debug\Wit.Example_BWT901BLE.csproj.GenerateResource.cache
-D:\大创资料\06 传感器程序\VBT.WinForm\obj\Debug\Wit.Example_BWT901BLE.csproj.CoreCompileInputs.cache
-D:\大创资料\06 传感器程序\VBT.WinForm\obj\Debug\zh-CN\Wit.Example_BWT901BLE.resources.dll
-D:\大创资料\06 传感器程序\VBT.WinForm\obj\Debug\Wit.Example_BWT901BLE.exe
-D:\大创资料\06 传感器程序\VBT.WinForm\obj\Debug\Wit.Example_BWT901BLE.pdb
