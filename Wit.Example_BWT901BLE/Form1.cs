@@ -575,5 +575,11 @@ namespace Wit.Example_BWT901BLE
         {
 
         }
+
+        private void SensorCalibrationButton_Click(object sender, EventArgs e)
+        {
+            CalibrationForm calibrationForm = new CalibrationForm();
+            calibrationForm.ShowDialog();
+        }
     }
 }

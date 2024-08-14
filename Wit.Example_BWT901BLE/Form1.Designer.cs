@@ -174,6 +174,7 @@ namespace Wit.Example_BWT901BLE
             resources.ApplyResources(this.SensorCalibrationButton, "SensorCalibrationButton");
             this.SensorCalibrationButton.Name = "SensorCalibrationButton";
             this.SensorCalibrationButton.UseVisualStyleBackColor = true;
+            this.SensorCalibrationButton.Click += new System.EventHandler(this.SensorCalibrationButton_Click);
             // 
             // TurnOnVisualizationButton
             // 
