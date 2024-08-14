@@ -218,9 +218,9 @@ namespace Wit.Example_BWT901BLE
                         DeviceData += GetDeviceData(bWT901BLE) + "\r\n";
                     }
                 }
-                dataRichTextBox.Invoke(new Action(() =>
+                DebugRichTextBox.Invoke(new Action(() =>
                 {
-                    dataRichTextBox.Text = DeviceData;
+                    DebugRichTextBox.Text = DeviceData;
                 }));
             }
         }
@@ -564,6 +564,16 @@ namespace Wit.Example_BWT901BLE
                     MessageBox.Show(ex.Message);
                 }
             }
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

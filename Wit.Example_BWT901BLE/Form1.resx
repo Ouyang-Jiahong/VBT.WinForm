@@ -117,35 +117,125 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="&gt;&gt;dataRichTextBox.Name" xml:space="preserve">
-    <value>dataRichTextBox</value>
+  <data name="&gt;&gt;NumberOfPeakPowerRichTextBox.Name" xml:space="preserve">
+    <value>NumberOfPeakPowerRichTextBox</value>
   </data>
-  <data name="&gt;&gt;dataRichTextBox.Type" xml:space="preserve">
+  <data name="&gt;&gt;NumberOfPeakPowerRichTextBox.Type" xml:space="preserve">
     <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;dataRichTextBox.Parent" xml:space="preserve">
+  <data name="&gt;&gt;NumberOfPeakPowerRichTextBox.Parent" xml:space="preserve">
     <value>groupBox1</value>
   </data>
-  <data name="&gt;&gt;dataRichTextBox.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;NumberOfPeakPowerRichTextBox.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="&gt;&gt;NumberOfPeakPowerButton.Name" xml:space="preserve">
+    <value>NumberOfPeakPowerButton</value>
+  </data>
+  <data name="&gt;&gt;NumberOfPeakPowerButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NumberOfPeakPowerButton.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;NumberOfPeakPowerButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;NumberOfCentripetalTimeRichTextBox.Name" xml:space="preserve">
+    <value>NumberOfCentripetalTimeRichTextBox</value>
+  </data>
+  <data name="&gt;&gt;NumberOfCentripetalTimeRichTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NumberOfCentripetalTimeRichTextBox.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;NumberOfCentripetalTimeRichTextBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;NumberOfCentripetalTimeButton.Name" xml:space="preserve">
+    <value>NumberOfCentripetalTimeButton</value>
+  </data>
+  <data name="&gt;&gt;NumberOfCentripetalTimeButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NumberOfCentripetalTimeButton.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;NumberOfCentripetalTimeButton.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;NumberOfSpeedRichTextBox.Name" xml:space="preserve">
+    <value>NumberOfSpeedRichTextBox</value>
+  </data>
+  <data name="&gt;&gt;NumberOfSpeedRichTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NumberOfSpeedRichTextBox.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;NumberOfSpeedRichTextBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;NumberOfSpeedButton.Name" xml:space="preserve">
+    <value>NumberOfSpeedButton</value>
+  </data>
+  <data name="&gt;&gt;NumberOfSpeedButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NumberOfSpeedButton.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;NumberOfSpeedButton.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;NumberOfMovementRichTextBox.Name" xml:space="preserve">
+    <value>NumberOfMovementRichTextBox</value>
+  </data>
+  <data name="&gt;&gt;NumberOfMovementRichTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NumberOfMovementRichTextBox.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;NumberOfMovementRichTextBox.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;NumberOfMovementButton.Name" xml:space="preserve">
+    <value>NumberOfMovementButton</value>
+  </data>
+  <data name="&gt;&gt;NumberOfMovementButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NumberOfMovementButton.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;NumberOfMovementButton.ZOrder" xml:space="preserve">
+    <value>7</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="groupBox1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
+    <value>Top</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>232, 0</value>
+    <value>580, 0</value>
+  </data>
+  <data name="groupBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>8, 8, 8, 8</value>
+  </data>
+  <data name="groupBox1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>8, 8, 8, 8</value>
   </data>
   <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>568, 450</value>
+    <value>892, 926</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
   </data>
   <data name="groupBox1.Text" xml:space="preserve">
-    <value>Sensor Data</value>
+    <value>数据显示</value>
   </data>
   <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
     <value>groupBox1</value>
@@ -157,34 +247,439 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
-  <data name="dataRichTextBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
+  <data name="NumberOfPeakPowerRichTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>508, 573</value>
   </data>
-  <data name="dataRichTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 17</value>
+  <data name="NumberOfPeakPowerRichTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>331, 300</value>
   </data>
-  <data name="dataRichTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>562, 430</value>
+  <data name="NumberOfPeakPowerRichTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
   </data>
-  <data name="dataRichTextBox.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="dataRichTextBox.Text" xml:space="preserve">
+  <data name="NumberOfPeakPowerRichTextBox.Text" xml:space="preserve">
     <value />
   </data>
-  <data name="&gt;&gt;dataRichTextBox.Name" xml:space="preserve">
-    <value>dataRichTextBox</value>
+  <data name="&gt;&gt;NumberOfPeakPowerRichTextBox.Name" xml:space="preserve">
+    <value>NumberOfPeakPowerRichTextBox</value>
   </data>
-  <data name="&gt;&gt;dataRichTextBox.Type" xml:space="preserve">
+  <data name="&gt;&gt;NumberOfPeakPowerRichTextBox.Type" xml:space="preserve">
     <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;dataRichTextBox.Parent" xml:space="preserve">
+  <data name="&gt;&gt;NumberOfPeakPowerRichTextBox.Parent" xml:space="preserve">
     <value>groupBox1</value>
   </data>
-  <data name="&gt;&gt;dataRichTextBox.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;NumberOfPeakPowerRichTextBox.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="NumberOfPeakPowerButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="NumberOfPeakPowerButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>508, 499</value>
+  </data>
+  <data name="NumberOfPeakPowerButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>331, 68</value>
+  </data>
+  <data name="NumberOfPeakPowerButton.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="NumberOfPeakPowerButton.Text" xml:space="preserve">
+    <value>功率峰值（W）</value>
+  </data>
+  <data name="&gt;&gt;NumberOfPeakPowerButton.Name" xml:space="preserve">
+    <value>NumberOfPeakPowerButton</value>
+  </data>
+  <data name="&gt;&gt;NumberOfPeakPowerButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NumberOfPeakPowerButton.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;NumberOfPeakPowerButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="NumberOfCentripetalTimeRichTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 573</value>
+  </data>
+  <data name="NumberOfCentripetalTimeRichTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>331, 300</value>
+  </data>
+  <data name="NumberOfCentripetalTimeRichTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="NumberOfCentripetalTimeRichTextBox.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;NumberOfCentripetalTimeRichTextBox.Name" xml:space="preserve">
+    <value>NumberOfCentripetalTimeRichTextBox</value>
+  </data>
+  <data name="&gt;&gt;NumberOfCentripetalTimeRichTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NumberOfCentripetalTimeRichTextBox.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;NumberOfCentripetalTimeRichTextBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="NumberOfCentripetalTimeButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="NumberOfCentripetalTimeButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 499</value>
+  </data>
+  <data name="NumberOfCentripetalTimeButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>331, 68</value>
+  </data>
+  <data name="NumberOfCentripetalTimeButton.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="NumberOfCentripetalTimeButton.Text" xml:space="preserve">
+    <value>向心时间（s）</value>
+  </data>
+  <data name="&gt;&gt;NumberOfCentripetalTimeButton.Name" xml:space="preserve">
+    <value>NumberOfCentripetalTimeButton</value>
+  </data>
+  <data name="&gt;&gt;NumberOfCentripetalTimeButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NumberOfCentripetalTimeButton.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;NumberOfCentripetalTimeButton.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="NumberOfSpeedRichTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>508, 120</value>
+  </data>
+  <data name="NumberOfSpeedRichTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>331, 300</value>
+  </data>
+  <data name="NumberOfSpeedRichTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="NumberOfSpeedRichTextBox.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;NumberOfSpeedRichTextBox.Name" xml:space="preserve">
+    <value>NumberOfSpeedRichTextBox</value>
+  </data>
+  <data name="&gt;&gt;NumberOfSpeedRichTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NumberOfSpeedRichTextBox.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;NumberOfSpeedRichTextBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="NumberOfSpeedButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="NumberOfSpeedButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>508, 46</value>
+  </data>
+  <data name="NumberOfSpeedButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>331, 68</value>
+  </data>
+  <data name="NumberOfSpeedButton.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="NumberOfSpeedButton.Text" xml:space="preserve">
+    <value>速度（MCV，m/s）</value>
+  </data>
+  <data name="&gt;&gt;NumberOfSpeedButton.Name" xml:space="preserve">
+    <value>NumberOfSpeedButton</value>
+  </data>
+  <data name="&gt;&gt;NumberOfSpeedButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NumberOfSpeedButton.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;NumberOfSpeedButton.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="NumberOfMovementRichTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 120</value>
+  </data>
+  <data name="NumberOfMovementRichTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>331, 300</value>
+  </data>
+  <data name="NumberOfMovementRichTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="NumberOfMovementRichTextBox.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;NumberOfMovementRichTextBox.Name" xml:space="preserve">
+    <value>NumberOfMovementRichTextBox</value>
+  </data>
+  <data name="&gt;&gt;NumberOfMovementRichTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NumberOfMovementRichTextBox.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;NumberOfMovementRichTextBox.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="NumberOfMovementButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="NumberOfMovementButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 46</value>
+  </data>
+  <data name="NumberOfMovementButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>331, 68</value>
+  </data>
+  <data name="NumberOfMovementButton.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="NumberOfMovementButton.Text" xml:space="preserve">
+    <value>次数</value>
+  </data>
+  <data name="&gt;&gt;NumberOfMovementButton.Name" xml:space="preserve">
+    <value>NumberOfMovementButton</value>
+  </data>
+  <data name="&gt;&gt;NumberOfMovementButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NumberOfMovementButton.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;NumberOfMovementButton.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="button5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>294, 151</value>
+  </data>
+  <data name="button5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 92</value>
+  </data>
+  <data name="button5.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="button5.Text" xml:space="preserve">
+    <value>设置带宽256Hz</value>
+  </data>
+  <data name="&gt;&gt;button5.Name" xml:space="preserve">
+    <value>button5</value>
+  </data>
+  <data name="&gt;&gt;button5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button5.Parent" xml:space="preserve">
+    <value>DebugGroupBox</value>
+  </data>
+  <data name="&gt;&gt;button5.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="button4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>34, 151</value>
+  </data>
+  <data name="button4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 92</value>
+  </data>
+  <data name="button4.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="button4.Text" xml:space="preserve">
+    <value>设置回传速率200Hz</value>
+  </data>
+  <data name="&gt;&gt;button4.Name" xml:space="preserve">
+    <value>button4</value>
+  </data>
+  <data name="&gt;&gt;button4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button4.Parent" xml:space="preserve">
+    <value>DebugGroupBox</value>
+  </data>
+  <data name="&gt;&gt;button4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="button3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>294, 56</value>
+  </data>
+  <data name="button3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 68</value>
+  </data>
+  <data name="button3.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="button3.Text" xml:space="preserve">
+    <value>停止搜索设备</value>
+  </data>
+  <data name="&gt;&gt;button3.Name" xml:space="preserve">
+    <value>button3</value>
+  </data>
+  <data name="&gt;&gt;button3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button3.Parent" xml:space="preserve">
+    <value>DebugGroupBox</value>
+  </data>
+  <data name="&gt;&gt;button3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="button2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>34, 56</value>
+  </data>
+  <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 68</value>
+  </data>
+  <data name="button2.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="button2.Text" xml:space="preserve">
+    <value>开始搜索设备</value>
+  </data>
+  <data name="&gt;&gt;button2.Name" xml:space="preserve">
+    <value>button2</value>
+  </data>
+  <data name="&gt;&gt;button2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button2.Parent" xml:space="preserve">
+    <value>DebugGroupBox</value>
+  </data>
+  <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="DebugGroupBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="DebugGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 926</value>
+  </data>
+  <data name="DebugGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>555, 282</value>
+  </data>
+  <data name="DebugGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="DebugGroupBox.Text" xml:space="preserve">
+    <value>调试设置</value>
+  </data>
+  <data name="&gt;&gt;DebugGroupBox.Name" xml:space="preserve">
+    <value>DebugGroupBox</value>
+  </data>
+  <data name="&gt;&gt;DebugGroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DebugGroupBox.Parent" xml:space="preserve">
+    <value>leftPanel</value>
+  </data>
+  <data name="&gt;&gt;DebugGroupBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;CloseOffVisualizationButton.Name" xml:space="preserve">
+    <value>CloseOffVisualizationButton</value>
+  </data>
+  <data name="&gt;&gt;CloseOffVisualizationButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CloseOffVisualizationButton.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;CloseOffVisualizationButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;CloseOffVoiceAnnouncementButton.Name" xml:space="preserve">
+    <value>CloseOffVoiceAnnouncementButton</value>
+  </data>
+  <data name="&gt;&gt;CloseOffVoiceAnnouncementButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CloseOffVoiceAnnouncementButton.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;CloseOffVoiceAnnouncementButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;TurnOnVoiceAnnouncementButton.Name" xml:space="preserve">
+    <value>TurnOnVoiceAnnouncementButton</value>
+  </data>
+  <data name="&gt;&gt;TurnOnVoiceAnnouncementButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TurnOnVoiceAnnouncementButton.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;TurnOnVoiceAnnouncementButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;SensorCalibrationButton.Name" xml:space="preserve">
+    <value>SensorCalibrationButton</value>
+  </data>
+  <data name="&gt;&gt;SensorCalibrationButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SensorCalibrationButton.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;SensorCalibrationButton.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;TurnOnVisualizationButton.Name" xml:space="preserve">
+    <value>TurnOnVisualizationButton</value>
+  </data>
+  <data name="&gt;&gt;TurnOnVisualizationButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TurnOnVisualizationButton.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;TurnOnVisualizationButton.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;TrainingHistorySearchButton.Name" xml:space="preserve">
+    <value>TrainingHistorySearchButton</value>
+  </data>
+  <data name="&gt;&gt;TrainingHistorySearchButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TrainingHistorySearchButton.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;TrainingHistorySearchButton.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="groupBox3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="groupBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 542</value>
+  </data>
+  <data name="groupBox3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>8, 8, 8, 8</value>
+  </data>
+  <data name="groupBox3.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>8, 8, 8, 8</value>
+  </data>
+  <data name="groupBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>555, 384</value>
+  </data>
+  <data name="groupBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>副窗口</value>
   </data>
   <data name="&gt;&gt;groupBox3.Name" xml:space="preserve">
     <value>groupBox3</value>
@@ -196,7 +691,136 @@
     <value>leftPanel</value>
   </data>
   <data name="&gt;&gt;groupBox3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;StopTrainingButton.Name" xml:space="preserve">
+    <value>StopTrainingButton</value>
+  </data>
+  <data name="&gt;&gt;StopTrainingButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StopTrainingButton.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;StopTrainingButton.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="&gt;&gt;PauseTrainingButton.Name" xml:space="preserve">
+    <value>PauseTrainingButton</value>
+  </data>
+  <data name="&gt;&gt;PauseTrainingButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PauseTrainingButton.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;PauseTrainingButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;StartTrainingButton.Name" xml:space="preserve">
+    <value>StartTrainingButton</value>
+  </data>
+  <data name="&gt;&gt;StartTrainingButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StartTrainingButton.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;StartTrainingButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;button1.Name" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;PersonalDataSettingButton.Name" xml:space="preserve">
+    <value>PersonalDataSettingButton</value>
+  </data>
+  <data name="&gt;&gt;PersonalDataSettingButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PersonalDataSettingButton.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;PersonalDataSettingButton.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;TrainingLoadRichTextBox.Name" xml:space="preserve">
+    <value>TrainingLoadRichTextBox</value>
+  </data>
+  <data name="&gt;&gt;TrainingLoadRichTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TrainingLoadRichTextBox.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;TrainingLoadRichTextBox.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;TrainingLoadButton.Name" xml:space="preserve">
+    <value>TrainingLoadButton</value>
+  </data>
+  <data name="&gt;&gt;TrainingLoadButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TrainingLoadButton.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;TrainingLoadButton.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;TrainingProgramRichTextBox.Name" xml:space="preserve">
+    <value>TrainingProgramRichTextBox</value>
+  </data>
+  <data name="&gt;&gt;TrainingProgramRichTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TrainingProgramRichTextBox.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;TrainingProgramRichTextBox.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;TrainingProgramButton.Name" xml:space="preserve">
+    <value>TrainingProgramButton</value>
+  </data>
+  <data name="&gt;&gt;TrainingProgramButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TrainingProgramButton.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;TrainingProgramButton.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="groupBox2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="groupBox2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>8, 8, 8, 8</value>
+  </data>
+  <data name="groupBox2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>8, 8, 8, 8</value>
+  </data>
+  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>555, 542</value>
+  </data>
+  <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>功能区</value>
   </data>
   <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
     <value>groupBox2</value>
@@ -208,7 +832,7 @@
     <value>leftPanel</value>
   </data>
   <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="leftPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Left</value>
@@ -216,11 +840,14 @@
   <data name="leftPanel.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
+  <data name="leftPanel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>8, 8, 8, 8</value>
+  </data>
   <data name="leftPanel.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 10, 0</value>
+    <value>0, 0, 25, 0</value>
   </data>
   <data name="leftPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>232, 450</value>
+    <value>580, 1208</value>
   </data>
   <data name="leftPanel.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -235,451 +862,469 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;leftPanel.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;bandWidth256.Name" xml:space="preserve">
-    <value>bandWidth256</value>
-  </data>
-  <data name="&gt;&gt;bandWidth256.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;bandWidth256.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;bandWidth256.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;bandWidth20.Name" xml:space="preserve">
-    <value>bandWidth20</value>
-  </data>
-  <data name="&gt;&gt;bandWidth20.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;bandWidth20.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;bandWidth20.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;returnRate50.Name" xml:space="preserve">
-    <value>returnRate50</value>
-  </data>
-  <data name="&gt;&gt;returnRate50.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;returnRate50.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;returnRate50.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="&gt;&gt;returnRate10.Name" xml:space="preserve">
-    <value>returnRate10</value>
+  <data name="CloseOffVisualizationButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;returnRate10.Type" xml:space="preserve">
+  <data name="CloseOffVisualizationButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>294, 243</value>
+  </data>
+  <data name="CloseOffVisualizationButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 68</value>
+  </data>
+  <data name="CloseOffVisualizationButton.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="CloseOffVisualizationButton.Text" xml:space="preserve">
+    <value>关闭可视化</value>
+  </data>
+  <data name="&gt;&gt;CloseOffVisualizationButton.Name" xml:space="preserve">
+    <value>CloseOffVisualizationButton</value>
+  </data>
+  <data name="&gt;&gt;CloseOffVisualizationButton.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;returnRate10.Parent" xml:space="preserve">
+  <data name="&gt;&gt;CloseOffVisualizationButton.Parent" xml:space="preserve">
     <value>groupBox3</value>
   </data>
-  <data name="&gt;&gt;returnRate10.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;CloseOffVisualizationButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="CloseOffVoiceAnnouncementButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CloseOffVoiceAnnouncementButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>34, 243</value>
+  </data>
+  <data name="CloseOffVoiceAnnouncementButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 68</value>
+  </data>
+  <data name="CloseOffVoiceAnnouncementButton.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="CloseOffVoiceAnnouncementButton.Text" xml:space="preserve">
+    <value>关闭语音播报</value>
+  </data>
+  <data name="&gt;&gt;CloseOffVoiceAnnouncementButton.Name" xml:space="preserve">
+    <value>CloseOffVoiceAnnouncementButton</value>
+  </data>
+  <data name="&gt;&gt;CloseOffVoiceAnnouncementButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CloseOffVoiceAnnouncementButton.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;CloseOffVoiceAnnouncementButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="TurnOnVoiceAnnouncementButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="TurnOnVoiceAnnouncementButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>34, 152</value>
+  </data>
+  <data name="TurnOnVoiceAnnouncementButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 68</value>
+  </data>
+  <data name="TurnOnVoiceAnnouncementButton.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="TurnOnVoiceAnnouncementButton.Text" xml:space="preserve">
+    <value>开启语音播报</value>
+  </data>
+  <data name="&gt;&gt;TurnOnVoiceAnnouncementButton.Name" xml:space="preserve">
+    <value>TurnOnVoiceAnnouncementButton</value>
+  </data>
+  <data name="&gt;&gt;TurnOnVoiceAnnouncementButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TurnOnVoiceAnnouncementButton.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;TurnOnVoiceAnnouncementButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="SensorCalibrationButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="SensorCalibrationButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>294, 58</value>
+  </data>
+  <data name="SensorCalibrationButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 68</value>
+  </data>
+  <data name="SensorCalibrationButton.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="SensorCalibrationButton.Text" xml:space="preserve">
+    <value>传感器校准</value>
+  </data>
+  <data name="&gt;&gt;SensorCalibrationButton.Name" xml:space="preserve">
+    <value>SensorCalibrationButton</value>
+  </data>
+  <data name="&gt;&gt;SensorCalibrationButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SensorCalibrationButton.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;SensorCalibrationButton.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="&gt;&gt;readReg03Button.Name" xml:space="preserve">
-    <value>readReg03Button</value>
+  <data name="TurnOnVisualizationButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;readReg03Button.Type" xml:space="preserve">
+  <data name="TurnOnVisualizationButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>294, 152</value>
+  </data>
+  <data name="TurnOnVisualizationButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 68</value>
+  </data>
+  <data name="TurnOnVisualizationButton.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="TurnOnVisualizationButton.Text" xml:space="preserve">
+    <value>开启可视化</value>
+  </data>
+  <data name="&gt;&gt;TurnOnVisualizationButton.Name" xml:space="preserve">
+    <value>TurnOnVisualizationButton</value>
+  </data>
+  <data name="&gt;&gt;TurnOnVisualizationButton.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;readReg03Button.Parent" xml:space="preserve">
+  <data name="&gt;&gt;TurnOnVisualizationButton.Parent" xml:space="preserve">
     <value>groupBox3</value>
   </data>
-  <data name="&gt;&gt;readReg03Button.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;TurnOnVisualizationButton.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="&gt;&gt;endFieldCalibrationButton.Name" xml:space="preserve">
-    <value>endFieldCalibrationButton</value>
+  <data name="TrainingHistorySearchButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;endFieldCalibrationButton.Type" xml:space="preserve">
+  <data name="TrainingHistorySearchButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>34, 58</value>
+  </data>
+  <data name="TrainingHistorySearchButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 68</value>
+  </data>
+  <data name="TrainingHistorySearchButton.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="TrainingHistorySearchButton.Text" xml:space="preserve">
+    <value>历史训练查询</value>
+  </data>
+  <data name="&gt;&gt;TrainingHistorySearchButton.Name" xml:space="preserve">
+    <value>TrainingHistorySearchButton</value>
+  </data>
+  <data name="&gt;&gt;TrainingHistorySearchButton.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;endFieldCalibrationButton.Parent" xml:space="preserve">
+  <data name="&gt;&gt;TrainingHistorySearchButton.Parent" xml:space="preserve">
     <value>groupBox3</value>
   </data>
-  <data name="&gt;&gt;endFieldCalibrationButton.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;TrainingHistorySearchButton.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="&gt;&gt;startFieldCalibrationButton.Name" xml:space="preserve">
-    <value>startFieldCalibrationButton</value>
+  <data name="StopTrainingButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;startFieldCalibrationButton.Type" xml:space="preserve">
+  <data name="StopTrainingButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>34, 433</value>
+  </data>
+  <data name="StopTrainingButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>493, 68</value>
+  </data>
+  <data name="StopTrainingButton.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="StopTrainingButton.Text" xml:space="preserve">
+    <value>停止训练</value>
+  </data>
+  <data name="&gt;&gt;StopTrainingButton.Name" xml:space="preserve">
+    <value>StopTrainingButton</value>
+  </data>
+  <data name="&gt;&gt;StopTrainingButton.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;startFieldCalibrationButton.Parent" xml:space="preserve">
-    <value>groupBox3</value>
+  <data name="&gt;&gt;StopTrainingButton.Parent" xml:space="preserve">
+    <value>groupBox2</value>
   </data>
-  <data name="&gt;&gt;startFieldCalibrationButton.ZOrder" xml:space="preserve">
-    <value>6</value>
+  <data name="&gt;&gt;StopTrainingButton.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
-  <data name="&gt;&gt;appliedCalibrationButton.Name" xml:space="preserve">
-    <value>appliedCalibrationButton</value>
+  <data name="PauseTrainingButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;appliedCalibrationButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="PauseTrainingButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>294, 340</value>
   </data>
-  <data name="&gt;&gt;appliedCalibrationButton.Parent" xml:space="preserve">
-    <value>groupBox3</value>
+  <data name="PauseTrainingButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 68</value>
   </data>
-  <data name="&gt;&gt;appliedCalibrationButton.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="groupBox3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="groupBox3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 124</value>
-  </data>
-  <data name="groupBox3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>222, 326</value>
-  </data>
-  <data name="groupBox3.TabIndex" type="System.Int32, mscorlib">
+  <data name="PauseTrainingButton.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
   </data>
-  <data name="groupBox3.Text" xml:space="preserve">
-    <value>Control Sensor</value>
+  <data name="PauseTrainingButton.Text" xml:space="preserve">
+    <value>暂停训练</value>
   </data>
-  <data name="&gt;&gt;groupBox3.Name" xml:space="preserve">
-    <value>groupBox3</value>
+  <data name="&gt;&gt;PauseTrainingButton.Name" xml:space="preserve">
+    <value>PauseTrainingButton</value>
   </data>
-  <data name="&gt;&gt;groupBox3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox3.Parent" xml:space="preserve">
-    <value>leftPanel</value>
-  </data>
-  <data name="&gt;&gt;groupBox3.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="bandWidth256.Location" type="System.Drawing.Point, System.Drawing">
-    <value>14, 228</value>
-  </data>
-  <data name="bandWidth256.Size" type="System.Drawing.Size, System.Drawing">
-    <value>192, 23</value>
-  </data>
-  <data name="bandWidth256.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="bandWidth256.Text" xml:space="preserve">
-    <value>Set BandWidth 256</value>
-  </data>
-  <data name="&gt;&gt;bandWidth256.Name" xml:space="preserve">
-    <value>bandWidth256</value>
-  </data>
-  <data name="&gt;&gt;bandWidth256.Type" xml:space="preserve">
+  <data name="&gt;&gt;PauseTrainingButton.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;bandWidth256.Parent" xml:space="preserve">
-    <value>groupBox3</value>
+  <data name="&gt;&gt;PauseTrainingButton.Parent" xml:space="preserve">
+    <value>groupBox2</value>
   </data>
-  <data name="&gt;&gt;bandWidth256.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="bandWidth20.Location" type="System.Drawing.Point, System.Drawing">
-    <value>14, 189</value>
-  </data>
-  <data name="bandWidth20.Size" type="System.Drawing.Size, System.Drawing">
-    <value>192, 23</value>
-  </data>
-  <data name="bandWidth20.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="bandWidth20.Text" xml:space="preserve">
-    <value>Set BandWidth 20</value>
-  </data>
-  <data name="&gt;&gt;bandWidth20.Name" xml:space="preserve">
-    <value>bandWidth20</value>
-  </data>
-  <data name="&gt;&gt;bandWidth20.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;bandWidth20.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;bandWidth20.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;PauseTrainingButton.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="returnRate50.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 151</value>
+  <data name="StartTrainingButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="returnRate50.Size" type="System.Drawing.Size, System.Drawing">
-    <value>192, 23</value>
+  <data name="StartTrainingButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>34, 340</value>
   </data>
-  <data name="returnRate50.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+  <data name="StartTrainingButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 68</value>
   </data>
-  <data name="returnRate50.Text" xml:space="preserve">
-    <value>Set ReturnRate 50</value>
+  <data name="StartTrainingButton.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
   </data>
-  <data name="&gt;&gt;returnRate50.Name" xml:space="preserve">
-    <value>returnRate50</value>
+  <data name="StartTrainingButton.Text" xml:space="preserve">
+    <value>开始训练</value>
   </data>
-  <data name="&gt;&gt;returnRate50.Type" xml:space="preserve">
+  <data name="&gt;&gt;StartTrainingButton.Name" xml:space="preserve">
+    <value>StartTrainingButton</value>
+  </data>
+  <data name="&gt;&gt;StartTrainingButton.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;returnRate50.Parent" xml:space="preserve">
-    <value>groupBox3</value>
+  <data name="&gt;&gt;StartTrainingButton.Parent" xml:space="preserve">
+    <value>groupBox2</value>
   </data>
-  <data name="&gt;&gt;returnRate50.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;StartTrainingButton.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="returnRate10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 111</value>
-  </data>
-  <data name="returnRate10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>194, 23</value>
-  </data>
-  <data name="returnRate10.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="returnRate10.Text" xml:space="preserve">
-    <value>Set ReturnRate 10</value>
-  </data>
-  <data name="&gt;&gt;returnRate10.Name" xml:space="preserve">
-    <value>returnRate10</value>
-  </data>
-  <data name="&gt;&gt;returnRate10.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;returnRate10.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;returnRate10.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="readReg03Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="button1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="readReg03Button.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 70</value>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>294, 245</value>
   </data>
-  <data name="readReg03Button.Size" type="System.Drawing.Size, System.Drawing">
-    <value>195, 23</value>
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 68</value>
   </data>
-  <data name="readReg03Button.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="readReg03Button.Text" xml:space="preserve">
-    <value>Read register 03</value>
-  </data>
-  <data name="&gt;&gt;readReg03Button.Name" xml:space="preserve">
-    <value>readReg03Button</value>
-  </data>
-  <data name="&gt;&gt;readReg03Button.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;readReg03Button.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;readReg03Button.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="endFieldCalibrationButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="endFieldCalibrationButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>121, 267</value>
-  </data>
-  <data name="endFieldCalibrationButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>86, 47</value>
-  </data>
-  <data name="endFieldCalibrationButton.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="endFieldCalibrationButton.Text" xml:space="preserve">
-    <value>End field calibration</value>
-  </data>
-  <data name="&gt;&gt;endFieldCalibrationButton.Name" xml:space="preserve">
-    <value>endFieldCalibrationButton</value>
-  </data>
-  <data name="&gt;&gt;endFieldCalibrationButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;endFieldCalibrationButton.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;endFieldCalibrationButton.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="startFieldCalibrationButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="startFieldCalibrationButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 267</value>
-  </data>
-  <data name="startFieldCalibrationButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>89, 47</value>
-  </data>
-  <data name="startFieldCalibrationButton.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="startFieldCalibrationButton.Text" xml:space="preserve">
-    <value>Start field calibration</value>
-  </data>
-  <data name="&gt;&gt;startFieldCalibrationButton.Name" xml:space="preserve">
-    <value>startFieldCalibrationButton</value>
-  </data>
-  <data name="&gt;&gt;startFieldCalibrationButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;startFieldCalibrationButton.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;startFieldCalibrationButton.ZOrder" xml:space="preserve">
+  <data name="button1.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
   </data>
-  <data name="appliedCalibrationButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="button1.Text" xml:space="preserve">
+    <value>设置屏蔽阈值</value>
+  </data>
+  <data name="&gt;&gt;button1.Name" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="PersonalDataSettingButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="appliedCalibrationButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 32</value>
+  <data name="PersonalDataSettingButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>34, 245</value>
   </data>
-  <data name="appliedCalibrationButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>195, 23</value>
+  <data name="PersonalDataSettingButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 68</value>
   </data>
-  <data name="appliedCalibrationButton.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="appliedCalibrationButton.Text" xml:space="preserve">
-    <value>Applied calibration</value>
-  </data>
-  <data name="&gt;&gt;appliedCalibrationButton.Name" xml:space="preserve">
-    <value>appliedCalibrationButton</value>
-  </data>
-  <data name="&gt;&gt;appliedCalibrationButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;appliedCalibrationButton.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;appliedCalibrationButton.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;stopScanButton.Name" xml:space="preserve">
-    <value>stopScanButton</value>
-  </data>
-  <data name="&gt;&gt;stopScanButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;stopScanButton.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;stopScanButton.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;startScanButton.Name" xml:space="preserve">
-    <value>startScanButton</value>
-  </data>
-  <data name="&gt;&gt;startScanButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;startScanButton.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;startScanButton.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="groupBox2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>222, 124</value>
-  </data>
-  <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="groupBox2.Text" xml:space="preserve">
-    <value>Connecting sensor</value>
-  </data>
-  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
-    <value>leftPanel</value>
-  </data>
-  <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="stopScanButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>133, 46</value>
-  </data>
-  <data name="stopScanButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="stopScanButton.TabIndex" type="System.Int32, mscorlib">
+  <data name="PersonalDataSettingButton.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
-  <data name="stopScanButton.Text" xml:space="preserve">
-    <value>StopScan</value>
+  <data name="PersonalDataSettingButton.Text" xml:space="preserve">
+    <value>输入个人数据</value>
   </data>
-  <data name="&gt;&gt;stopScanButton.Name" xml:space="preserve">
-    <value>stopScanButton</value>
+  <data name="&gt;&gt;PersonalDataSettingButton.Name" xml:space="preserve">
+    <value>PersonalDataSettingButton</value>
   </data>
-  <data name="&gt;&gt;stopScanButton.Type" xml:space="preserve">
+  <data name="&gt;&gt;PersonalDataSettingButton.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;stopScanButton.Parent" xml:space="preserve">
+  <data name="&gt;&gt;PersonalDataSettingButton.Parent" xml:space="preserve">
     <value>groupBox2</value>
   </data>
-  <data name="&gt;&gt;stopScanButton.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="startScanButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>14, 46</value>
-  </data>
-  <data name="startScanButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="startScanButton.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;PersonalDataSettingButton.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="startScanButton.Text" xml:space="preserve">
-    <value>StartScan</value>
+  <data name="TrainingLoadRichTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>266, 144</value>
   </data>
-  <data name="&gt;&gt;startScanButton.Name" xml:space="preserve">
-    <value>startScanButton</value>
+  <data name="TrainingLoadRichTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>261, 68</value>
   </data>
-  <data name="&gt;&gt;startScanButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="TrainingLoadRichTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
   </data>
-  <data name="&gt;&gt;startScanButton.Parent" xml:space="preserve">
+  <data name="TrainingLoadRichTextBox.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;TrainingLoadRichTextBox.Name" xml:space="preserve">
+    <value>TrainingLoadRichTextBox</value>
+  </data>
+  <data name="&gt;&gt;TrainingLoadRichTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TrainingLoadRichTextBox.Parent" xml:space="preserve">
     <value>groupBox2</value>
   </data>
-  <data name="&gt;&gt;startScanButton.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;TrainingLoadRichTextBox.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="TrainingLoadButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>34, 144</value>
+  </data>
+  <data name="TrainingLoadButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 68</value>
+  </data>
+  <data name="TrainingLoadButton.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="TrainingLoadButton.Text" xml:space="preserve">
+    <value>负荷（kg）：</value>
+  </data>
+  <data name="&gt;&gt;TrainingLoadButton.Name" xml:space="preserve">
+    <value>TrainingLoadButton</value>
+  </data>
+  <data name="&gt;&gt;TrainingLoadButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TrainingLoadButton.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;TrainingLoadButton.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="TrainingProgramRichTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>266, 46</value>
+  </data>
+  <data name="TrainingProgramRichTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>261, 68</value>
+  </data>
+  <data name="TrainingProgramRichTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="TrainingProgramRichTextBox.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;TrainingProgramRichTextBox.Name" xml:space="preserve">
+    <value>TrainingProgramRichTextBox</value>
+  </data>
+  <data name="&gt;&gt;TrainingProgramRichTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TrainingProgramRichTextBox.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;TrainingProgramRichTextBox.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="TrainingProgramButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>34, 46</value>
+  </data>
+  <data name="TrainingProgramButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 68</value>
+  </data>
+  <data name="TrainingProgramButton.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>zh-CN</value>
-  </metadata>
+  <data name="TrainingProgramButton.Text" xml:space="preserve">
+    <value>动作名称：</value>
+  </data>
+  <data name="&gt;&gt;TrainingProgramButton.Name" xml:space="preserve">
+    <value>TrainingProgramButton</value>
+  </data>
+  <data name="&gt;&gt;TrainingProgramButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TrainingProgramButton.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;TrainingProgramButton.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="DebugRichTextBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="DebugRichTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 38</value>
+  </data>
+  <data name="DebugRichTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>886, 241</value>
+  </data>
+  <data name="DebugRichTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="DebugRichTextBox.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;DebugRichTextBox.Name" xml:space="preserve">
+    <value>DebugRichTextBox</value>
+  </data>
+  <data name="&gt;&gt;DebugRichTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DebugRichTextBox.Parent" xml:space="preserve">
+    <value>VisualizationGroupBox</value>
+  </data>
+  <data name="&gt;&gt;DebugRichTextBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="VisualizationGroupBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="VisualizationGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>580, 926</value>
+  </data>
+  <data name="VisualizationGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>892, 282</value>
+  </data>
+  <data name="VisualizationGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="VisualizationGroupBox.Text" xml:space="preserve">
+    <value>调试区</value>
+  </data>
+  <data name="&gt;&gt;VisualizationGroupBox.Name" xml:space="preserve">
+    <value>VisualizationGroupBox</value>
+  </data>
+  <data name="&gt;&gt;VisualizationGroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;VisualizationGroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;VisualizationGroupBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 12</value>
+    <value>15, 30</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>800, 450</value>
+    <value>1472, 1208</value>
   </data>
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>10, 10, 10, 10</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>BWT901BLE Sample program</value>
+    <value>强军牌VBT辅助仪器</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>Form1</value>
