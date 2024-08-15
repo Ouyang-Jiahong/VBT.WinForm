@@ -40,6 +40,11 @@ namespace Wit.Example_BWT901BLE
             this.NumberOfMovementRichTextBox = new System.Windows.Forms.RichTextBox();
             this.NumberOfMovementButton = new System.Windows.Forms.Button();
             this.leftPanel = new System.Windows.Forms.Panel();
+            this.DebugGroupBox = new System.Windows.Forms.GroupBox();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.CloseOffVisualizationButton = new System.Windows.Forms.Button();
             this.CloseOffVoiceAnnouncementButton = new System.Windows.Forms.Button();
@@ -57,18 +62,13 @@ namespace Wit.Example_BWT901BLE
             this.TrainingLoadButton = new System.Windows.Forms.Button();
             this.TrainingProgramRichTextBox = new System.Windows.Forms.RichTextBox();
             this.TrainingProgramButton = new System.Windows.Forms.Button();
-            this.DebugGroupBox = new System.Windows.Forms.GroupBox();
             this.VisualizationGroupBox = new System.Windows.Forms.GroupBox();
             this.DebugRichTextBox = new System.Windows.Forms.RichTextBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.leftPanel.SuspendLayout();
+            this.DebugGroupBox.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
-            this.DebugGroupBox.SuspendLayout();
             this.VisualizationGroupBox.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -139,15 +139,53 @@ namespace Wit.Example_BWT901BLE
             resources.ApplyResources(this.leftPanel, "leftPanel");
             this.leftPanel.Name = "leftPanel";
             // 
+            // DebugGroupBox
+            // 
+            resources.ApplyResources(this.DebugGroupBox, "DebugGroupBox");
+            this.DebugGroupBox.Controls.Add(this.button5);
+            this.DebugGroupBox.Controls.Add(this.button4);
+            this.DebugGroupBox.Controls.Add(this.button3);
+            this.DebugGroupBox.Controls.Add(this.button2);
+            this.DebugGroupBox.Name = "DebugGroupBox";
+            this.DebugGroupBox.TabStop = false;
+            // 
+            // button5
+            // 
+            resources.ApplyResources(this.button5, "button5");
+            this.button5.Name = "button5";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.bandWidth256_Click);
+            // 
+            // button4
+            // 
+            resources.ApplyResources(this.button4, "button4");
+            this.button4.Name = "button4";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.returnRate200_Click);
+            // 
+            // button3
+            // 
+            resources.ApplyResources(this.button3, "button3");
+            this.button3.Name = "button3";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.stopScanButton_Click);
+            // 
+            // button2
+            // 
+            resources.ApplyResources(this.button2, "button2");
+            this.button2.Name = "button2";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.startScanButton_Click);
+            // 
             // groupBox3
             // 
+            resources.ApplyResources(this.groupBox3, "groupBox3");
             this.groupBox3.Controls.Add(this.CloseOffVisualizationButton);
             this.groupBox3.Controls.Add(this.CloseOffVoiceAnnouncementButton);
             this.groupBox3.Controls.Add(this.TurnOnVoiceAnnouncementButton);
             this.groupBox3.Controls.Add(this.SensorCalibrationButton);
             this.groupBox3.Controls.Add(this.TurnOnVisualizationButton);
             this.groupBox3.Controls.Add(this.TrainingHistorySearchButton);
-            resources.ApplyResources(this.groupBox3, "groupBox3");
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.TabStop = false;
             // 
@@ -190,6 +228,7 @@ namespace Wit.Example_BWT901BLE
             // 
             // groupBox2
             // 
+            resources.ApplyResources(this.groupBox2, "groupBox2");
             this.groupBox2.Controls.Add(this.StopTrainingButton);
             this.groupBox2.Controls.Add(this.PauseTrainingButton);
             this.groupBox2.Controls.Add(this.StartTrainingButton);
@@ -199,7 +238,6 @@ namespace Wit.Example_BWT901BLE
             this.groupBox2.Controls.Add(this.TrainingLoadButton);
             this.groupBox2.Controls.Add(this.TrainingProgramRichTextBox);
             this.groupBox2.Controls.Add(this.TrainingProgramButton);
-            resources.ApplyResources(this.groupBox2, "groupBox2");
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.TabStop = false;
             // 
@@ -255,16 +293,6 @@ namespace Wit.Example_BWT901BLE
             this.TrainingProgramButton.Name = "TrainingProgramButton";
             this.TrainingProgramButton.UseVisualStyleBackColor = true;
             // 
-            // DebugGroupBox
-            // 
-            this.DebugGroupBox.Controls.Add(this.button5);
-            this.DebugGroupBox.Controls.Add(this.button4);
-            this.DebugGroupBox.Controls.Add(this.button3);
-            this.DebugGroupBox.Controls.Add(this.button2);
-            resources.ApplyResources(this.DebugGroupBox, "DebugGroupBox");
-            this.DebugGroupBox.Name = "DebugGroupBox";
-            this.DebugGroupBox.TabStop = false;
-            // 
             // VisualizationGroupBox
             // 
             this.VisualizationGroupBox.Controls.Add(this.DebugRichTextBox);
@@ -276,34 +304,6 @@ namespace Wit.Example_BWT901BLE
             // 
             resources.ApplyResources(this.DebugRichTextBox, "DebugRichTextBox");
             this.DebugRichTextBox.Name = "DebugRichTextBox";
-            // 
-            // button2
-            // 
-            resources.ApplyResources(this.button2, "button2");
-            this.button2.Name = "button2";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.startScanButton_Click);
-            // 
-            // button3
-            // 
-            resources.ApplyResources(this.button3, "button3");
-            this.button3.Name = "button3";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.stopScanButton_Click);
-            // 
-            // button4
-            // 
-            resources.ApplyResources(this.button4, "button4");
-            this.button4.Name = "button4";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.returnRate200_Click);
-            // 
-            // button5
-            // 
-            resources.ApplyResources(this.button5, "button5");
-            this.button5.Name = "button5";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.bandWidth256_Click);
             // 
             // Form1
             // 
@@ -317,9 +317,10 @@ namespace Wit.Example_BWT901BLE
             this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
             this.leftPanel.ResumeLayout(false);
+            this.leftPanel.PerformLayout();
+            this.DebugGroupBox.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
-            this.DebugGroupBox.ResumeLayout(false);
             this.VisualizationGroupBox.ResumeLayout(false);
             this.ResumeLayout(false);
 
