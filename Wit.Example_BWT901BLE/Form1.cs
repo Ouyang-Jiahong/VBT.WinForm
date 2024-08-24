@@ -59,6 +59,10 @@ namespace Wit.Example_BWT901BLE
         /// <param name="e"></param>
         private void Form1_Load(object sender, EventArgs e)
         {
+            // 设置传感器回传速率
+
+            // 设置传感器带宽
+
             // 开启数据刷新线程
             Thread thread = new Thread(RefreshDataTh);
             thread.IsBackground = true;
@@ -288,52 +292,6 @@ namespace Wit.Example_BWT901BLE
                     MessageBox.Show(ex.Message);
                 }
             }
-        }
-
-
-        /// <summary>
-        /// 读取03寄存器
-        /// Read 03 register
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void readReg03Button_Click(object sender, EventArgs e)
-        {
-            string reg03Value = "";
-            // 读取所有连接的蓝牙设备的03寄存器
-            // Read the 03 register of all connected Bluetooth devices
-            for (int i = 0; i < FoundDeviceDict.Count; i++)
-            {
-                var keyValue = FoundDeviceDict.ElementAt(i);
-                Bwt901ble bWT901BLE = keyValue.Value;
-
-                if (bWT901BLE.IsOpen() == false)
-                {
-                    return;
-                }
-                try
-                {
-                    // 等待时长
-                    // Waiting time
-                    int waitTime = 3000;
-                    // 发送读取命令，并且等待传感器返回数据，如果没读上来可以将 waitTime 延长，或者多读几次
-                    // Send a read command and wait for the sensor to return data. If it is not read, the waitTime can be extended or read several more times
-                    bWT901BLE.SendReadReg(0x03, waitTime);
-
-                    // 下面这行和上面等价推荐使用上面的
-                    // The following two lines are equivalent to the above, and it is recommended to use the above one
-                    //bWT901BLE.SendProtocolData(new byte[] { 0xff, 0xaa, 0x27, 0x03, 0x00 }, waitTime);
-
-                    // 拿到所有连接的蓝牙设备的值
-                    // Get the values of all connected Bluetooth devices
-                    reg03Value += bWT901BLE.GetDeviceName() + "的寄存器03值为 :" + bWT901BLE.GetDeviceData(new ShortKey("03")) + "\r\n";
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show(ex.Message);
-                }
-            }
-            MessageBox.Show(reg03Value);
         }
 
         /// <summary>
