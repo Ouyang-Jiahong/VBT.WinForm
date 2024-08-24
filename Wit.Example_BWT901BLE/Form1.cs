@@ -20,13 +20,6 @@ namespace Wit.Example_BWT901BLE
     /// 2.适用示例程序前请咨询技术支持,询问本示例程序是否支持您的传感器
     /// 3.使用前请了解传感器的通信协议
     /// 4.本程序只有一个窗口,所有逻辑都在这里
-    /// 
-    /// Program Main Window
-    /// Explanation:
-    /// 1. This program is an example program for the BWT901BLE nine axis sensor developed by Weite Intelligence
-    /// 2. Before applying the sample program, please consult technical support and ask if this sample program supports your sensor
-    /// 3. Please understand the communication protocol of the sensor before use
-    /// 4. This program only has one window, all logic is here
     /// </summary>
     public partial class Form1 : Form
     {
@@ -67,7 +60,6 @@ namespace Wit.Example_BWT901BLE
         private void Form1_Load(object sender, EventArgs e)
         {
             // 开启数据刷新线程
-            // Enable data refresh thread
             Thread thread = new Thread(RefreshDataTh);
             thread.IsBackground = true;
             EnableRefreshDataTh = true;
@@ -345,42 +337,6 @@ namespace Wit.Example_BWT901BLE
         }
 
         /// <summary>
-        /// 设置回传速率10Hz
-        /// Set the return rate to 10Hz
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void returnRate10_Click(object sender, EventArgs e)
-        {
-            for (int i = 0; i < FoundDeviceDict.Count; i++)
-            {
-                var keyValue = FoundDeviceDict.ElementAt(i);
-                Bwt901ble bWT901BLE = keyValue.Value;
-
-                if (bWT901BLE.IsOpen() == false)
-                {
-                    return;
-                }
-                try
-                {
-                    // 解锁寄存器并发送命令
-                    // Unlock register and send command
-                    bWT901BLE.UnlockReg();
-                    bWT901BLE.SetReturnRate(0x06);
-
-                    // 下面两行与上面等价,推荐使用上面的
-                    // The following two lines are equivalent to the above, and it is recommended to use the above one
-                    //bWT901BLE.SendProtocolData(new byte[] { 0xff, 0xaa, 0x69, 0x88, 0xb5 });
-                    //bWT901BLE.SendProtocolData(new byte[] { 0xff, 0xaa, 0x03, 0x06, 0x00 });
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show(ex.Message);
-                }
-            }
-        }
-
-        /// <summary>
         /// 设置回传速率200Hz
         /// Set the return rate to 200Hz
         /// </summary>
@@ -417,44 +373,7 @@ namespace Wit.Example_BWT901BLE
         }
 
         /// <summary>
-        /// 设置带宽20Hz
-        /// Set bandwidth of 20Hz
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void bandWidth20_Click(object sender, EventArgs e)
-        {
-            for (int i = 0; i < FoundDeviceDict.Count; i++)
-            {
-                var keyValue = FoundDeviceDict.ElementAt(i);
-                Bwt901ble bWT901BLE = keyValue.Value;
-
-                if (bWT901BLE.IsOpen() == false)
-                {
-                    return;
-                }
-                try
-                {
-                    // 解锁寄存器并发送命令
-                    // Unlock register and send command
-                    bWT901BLE.UnlockReg();
-                    bWT901BLE.SetBandWidth(0x04);
-
-                    // 下面两行与上面等价,推荐使用上面的
-                    // The following two lines are equivalent to the above, and it is recommended to use the above one
-                    //bWT901BLE.SendProtocolData(new byte[] { 0xff, 0xaa, 0x69, 0x88, 0xb5 });
-                    //bWT901BLE.SendProtocolData(new byte[] { 0xff, 0xaa, 0x1F, 0x04, 0x00 });
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show(ex.Message);
-                }
-            }
-        }
-
-        /// <summary>
         /// 设置带宽256Hz
-        /// Set bandwidth of 256Hz
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -472,14 +391,8 @@ namespace Wit.Example_BWT901BLE
                 try
                 {
                     // 解锁寄存器并发送命令
-                    // Unlock register and send command
                     bWT901BLE.UnlockReg();
                     bWT901BLE.SetBandWidth(0x00);
-
-                    // 下面两行与上面等价,推荐使用上面的
-                    // The following two lines are equivalent to the above, and it is recommended to use the above one
-                    //bWT901BLE.SendProtocolData(new byte[] { 0xff, 0xaa, 0x69, 0x88, 0xb5 });
-                    //bWT901BLE.SendProtocolData(new byte[] { 0xff, 0xaa, 0x1F, 0x00, 0x00 });
                 }
                 catch (Exception ex)
                 {
@@ -566,6 +479,11 @@ namespace Wit.Example_BWT901BLE
             }
         }
 
+        /// <summary>
+        /// 时间处理器
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
