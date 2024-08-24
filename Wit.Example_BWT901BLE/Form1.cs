@@ -15,22 +15,18 @@ namespace Wit.Example_BWT901BLE
 {   
     /// <summary>
     /// 程序主窗口
-    /// 说明：
-    /// 1.本程序是维特智能开发的BWT901BLE九轴传感器示例程序
-    /// 2.适用示例程序前请咨询技术支持,询问本示例程序是否支持您的传感器
-    /// 3.使用前请了解传感器的通信协议
-    /// 4.本程序只有一个窗口,所有逻辑都在这里
     /// </summary>
     public partial class Form1 : Form
     {
 
         /// <summary>
-        /// 蓝牙管理器
+        /// 蓝牙管理器实例，用于管理蓝牙设备的搜索、连接和断开等操作。
         /// </summary>
         private IWinBlueManager WitBluetoothManager = WinBlueFactory.GetInstance();
 
         /// <summary>
-        /// 找到的设备
+        /// 存储已发现的BWT901BLE蓝牙设备及其对应的连接实例的字典。  
+        /// 键为设备的MAC地址，值为对应的Bwt901ble实例。
         /// </summary>
         private Dictionary<string, Bwt901ble> FoundDeviceDict = new Dictionary<string, Bwt901ble>();
 
@@ -40,29 +36,29 @@ namespace Wit.Example_BWT901BLE
         public bool EnableRefreshDataTh { get; private set; }
 
         /// <summary>
-        /// 构造器
+        /// 类的构造函数，用于初始化窗体及其组件。 
         /// </summary>
         public Form1()
         {
-            InitializeComponent();
+            InitializeComponent(); // 初始化窗体上的所有控件。  
         }
 
         /// <summary>
-        /// 窗体加载时
+        /// 当窗体加载时触发的事件处理程序。  
+        /// 在此事件中，初始化传感器设置
+        /// 并启动一个后台线程用于持续刷新并显示传感器数据。 
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
         private void Form1_Load(object sender, EventArgs e)
         {
-            // 设置传感器回传速率
-
-            // 设置传感器带宽
-
+            // 初始化传感器设置
+            InitializeDevices();
             // 开启数据刷新线程
-            Thread thread = new Thread(RefreshDataTh);
-            thread.IsBackground = true;
-            EnableRefreshDataTh = true;
-            thread.Start();
+            Thread dataRefreshThread = new Thread(RefreshDataTh);
+            dataRefreshThread.IsBackground = true; // 设置为后台线程，确保主程序退出时线程也会自动退出  
+            EnableRefreshDataTh = true; // 启用数据刷新标志  
+            dataRefreshThread.Start(); // 启动线程  
         }
 
         /// <summary>
@@ -198,6 +194,37 @@ namespace Wit.Example_BWT901BLE
             }
         }
 
+        /// <summary>  
+        /// 初始化所有已连接的BWT901BLE设备，设置数据回传速率为200Hz，带宽为256Hz。  
+        /// </summary>  
+        private void InitializeDevices()
+        {
+            foreach (var device in FoundDeviceDict.Values)
+            {
+                if (!device.IsOpen())
+                {
+                    continue; // 如果设备未打开，则跳过  
+                }
+
+                try
+                {
+                    // 解锁寄存器  
+                    device.UnlockReg();
+
+                    // 设置数据回传速率为200Hz  
+                    device.SetReturnRate(0x0A);
+
+                    // 设置带宽为256Hz
+                    device.SetBandWidth(0x00);
+                }
+                catch (Exception ex)
+                {
+                    // 如果在设置过程中捕获到异常，则显示一个消息框来通知用户错误信息  
+                    MessageBox.Show($"初始化设备时出错: {ex.Message}");
+                }
+            }
+        }
+
         /// <summary>
         /// 获得设备的数据
         /// </summary>
@@ -262,63 +289,7 @@ namespace Wit.Example_BWT901BLE
             }
         }
 
-        /// <summary>
-        /// 设置回传速率200Hz
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void returnRate200_Click(object sender, EventArgs e)
-        {
-            for (int i = 0; i < FoundDeviceDict.Count; i++)
-            {
-                var keyValue = FoundDeviceDict.ElementAt(i);
-                Bwt901ble bWT901BLE = keyValue.Value;
-
-                if (bWT901BLE.IsOpen() == false)
-                {
-                    return;
-                }
-                try
-                {
-                    // 解锁寄存器并发送命令
-                    bWT901BLE.UnlockReg();
-                    bWT901BLE.SetReturnRate(0x0A);
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show(ex.Message);
-                }
-            }
-        }
-
-        /// <summary>
-        /// 设置带宽256Hz
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void bandWidth256_Click(object sender, EventArgs e)
-        {
-            for (int i = 0; i < FoundDeviceDict.Count; i++)
-            {
-                var keyValue = FoundDeviceDict.ElementAt(i);
-                Bwt901ble bWT901BLE = keyValue.Value;
-
-                if (bWT901BLE.IsOpen() == false)
-                {
-                    return;
-                }
-                try
-                {
-                    // 解锁寄存器并发送命令
-                    bWT901BLE.UnlockReg();
-                    bWT901BLE.SetBandWidth(0x00);
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show(ex.Message);
-                }
-            }
-        }
+        
 
         /// <summary>
         /// 开始磁场校准
