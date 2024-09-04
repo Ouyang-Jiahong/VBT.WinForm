@@ -1,7 +1,7 @@
 ﻿
 namespace Wit.Example_BWT901BLE
 {
-    partial class Form1
+    partial class MainForm
     {
         /// <summary>
         /// 必需的设计器变量。
@@ -29,7 +29,7 @@ namespace Wit.Example_BWT901BLE
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.NumberOfPeakPowerRichTextBox = new System.Windows.Forms.RichTextBox();
             this.NumberOfPeakPowerButton = new System.Windows.Forms.Button();
@@ -157,7 +157,7 @@ namespace Wit.Example_BWT901BLE
             resources.ApplyResources(this.button2, "button2");
             this.button2.Name = "button2";
             this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.startScanButton_Click);
+            this.button2.Click += new System.EventHandler(this.StartScanButton_Click);
             // 
             // groupBox3
             // 
@@ -295,8 +295,8 @@ namespace Wit.Example_BWT901BLE
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.leftPanel);
             this.Name = "Form1";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
-            this.Load += new System.EventHandler(this.Form1_Load);
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainFormClosing);
+            this.Load += new System.EventHandler(this.MainFormLoad);
             this.groupBox1.ResumeLayout(false);
             this.leftPanel.ResumeLayout(false);
             this.leftPanel.PerformLayout();

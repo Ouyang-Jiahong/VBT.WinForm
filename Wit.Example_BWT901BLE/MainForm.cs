@@ -12,12 +12,16 @@ using Wit.Bluetooth.WinBlue.Utils;
 using Wit.Bluetooth.WinBlue.Interface;
 
 namespace Wit.Example_BWT901BLE
-{   
+{
     /// <summary>
     /// 程序主窗口
     /// </summary>
-    public partial class Form1 : Form
+    public partial class MainForm : Form
     {
+        public MainForm()
+        {
+            InitializeComponent(); // 初始化窗体上的所有控件。  
+        }
 
         /// <summary>
         /// 蓝牙管理器实例，用于管理蓝牙设备的搜索、连接和断开等操作。
@@ -36,51 +40,51 @@ namespace Wit.Example_BWT901BLE
         public bool EnableRefreshDataTh { get; private set; }
 
         /// <summary>
-        /// 类的构造函数，用于初始化窗体及其组件。 
-        /// </summary>
-        public Form1()
-        {
-            InitializeComponent(); // 初始化窗体上的所有控件。  
-        }
-
-        /// <summary>
         /// 当窗体加载时触发的事件处理程序。  
-        /// 在此事件中，初始化传感器设置
-        /// 并启动一个后台线程用于持续刷新并显示传感器数据。 
+        /// 功能：
+        ///     1. 初始化传感器设置；
+        ///     2. 启动一个后台线程用于持续刷新并显示传感器数据。 
         /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void Form1_Load(object sender, EventArgs e)
+        private void MainFormLoad(object sender, EventArgs e)
         {
             // 初始化传感器设置
             InitializeDevices();
-            // 开启数据刷新线程
+
+            // 启用数据刷新标志
+            EnableRefreshDataTh = true;
+
+            // 开启数据刷新线程，用于在一个富文本框内以 10Hz 的频率刷新显示传感器数据
             Thread dataRefreshThread = new Thread(RefreshDataTh);
-            dataRefreshThread.IsBackground = true; // 设置为后台线程，确保主程序退出时线程也会自动退出  
-            EnableRefreshDataTh = true; // 启用数据刷新标志  
-            dataRefreshThread.Start(); // 启动线程  
+            dataRefreshThread.IsBackground = true;
+            dataRefreshThread.Start();
         }
 
         /// <summary>
-        /// 窗体关闭时
+        /// 当窗体关闭时触发的事件处理程序。
         /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        private void MainFormClosing(object sender, FormClosingEventArgs e)
         {
             // 关闭刷新数据线程
             EnableRefreshDataTh = false;
             // 关闭蓝牙搜索
             stopScanButton_Click(null, null);
+            // 终止当前进程
             Process.GetCurrentProcess().Kill();
         }
 
         /// <summary>
-        /// 开始搜索
+        /// 停止搜索
         /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void startScanButton_Click(object sender, EventArgs e)
+        private void stopScanButton_Click(object sender, EventArgs e)
+        {
+            // 让蓝牙管理器停止搜索
+            WitBluetoothManager.StopScan();
+        }
+
+        /// <summary>
+        /// 清除找到的设备，关闭之前打开的设备，并开始搜索设备
+        /// </summary>
+        private void StartScanButton_Click(object sender, EventArgs e)
         {
             // 清除找到的设备
             FoundDeviceDict.Clear();
@@ -100,8 +104,6 @@ namespace Wit.Example_BWT901BLE
         /// <summary>
         /// 当搜索到蓝牙设备时会回调这个方法
         /// </summary>
-        /// <param name="mac"></param>
-        /// <param name="deviceName"></param>
         private void WitBluetoothManager_OnDeviceFound(string mac, string deviceName)
         {
             // 名称过滤
@@ -109,7 +111,7 @@ namespace Wit.Example_BWT901BLE
             {
                 if (!FoundDeviceDict.ContainsKey(mac))
                 {
-                    Bwt901ble bWT901BLE = new Bwt901ble(mac,deviceName);
+                    Bwt901ble bWT901BLE = new Bwt901ble(mac, deviceName);
                     FoundDeviceDict.Add(mac, bWT901BLE);
                     // 打开这个设备
                     bWT901BLE.Open();
@@ -121,30 +123,15 @@ namespace Wit.Example_BWT901BLE
         /// <summary>
         /// 当传感器数据刷新时会调用这里，您可以在这里记录数据
         /// </summary>
-        /// <param name="BWT901BLE"></param>
         private void BWT901BLE_OnRecord(Bwt901ble BWT901BLE)
         {
+            // 在这里存储设备数据
             string text = GetDeviceData(BWT901BLE);
-            Debug.WriteLine(text);
-        }
-
-        /// <summary>
-        /// 停止搜索
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void stopScanButton_Click(object sender, EventArgs e)
-        {
-            // 让蓝牙管理器停止搜索
-            WitBluetoothManager.StopScan();
         }
 
         /// <summary>
         /// 设备状态发生时会调这个方法
         /// </summary>
-        /// <param name="macAddr"></param>
-        /// <param name="mType"></param>
-        /// <param name="sMsg"></param>
         private void OnDeviceStatu(string macAddr, int mType, string sMsg)
         {
             if (mType == 20)
@@ -167,14 +154,16 @@ namespace Wit.Example_BWT901BLE
         }
 
         /// <summary>
-        /// 刷新数据线程
-        /// Refresh Data Thread
+        /// 数据刷新线程，用于在一个富文本框内以 10Hz 的频率刷新显示传感器数据
+        /// 如果没有找到设备，这个线程也在一直运行，只不过采不到数据
         /// </summary>
         private void RefreshDataTh()
         {
             while (EnableRefreshDataTh)
             {
-                // 多设备的展示数据
+                /// <debug>
+                /// 展示设备采集的数据
+                /// </debug>
                 string DeviceData = "";
                 Thread.Sleep(100);
                 // 刷新所有连接设备的数据
@@ -191,11 +180,13 @@ namespace Wit.Example_BWT901BLE
                 {
                     DebugRichTextBox.Text = DeviceData;
                 }));
+
+
             }
         }
 
         /// <summary>  
-        /// 初始化所有已连接的BWT901BLE设备，设置数据回传速率为200Hz，带宽为256Hz。  
+        /// 初始化所有已连接的设备，设置数据回传速率为200Hz，带宽为256Hz。  
         /// </summary>  
         private void InitializeDevices()
         {
@@ -227,42 +218,66 @@ namespace Wit.Example_BWT901BLE
 
         /// <summary>
         /// 获得设备的数据
+        /// 依次为
+        ///     1. AccX
+        ///     2. AccY
+        ///     3. AccZ
+        ///     4. GyroX
+        ///     5. GyroY
+        ///     6. GyroZ
+        ///     7. AngleX
+        ///     8. AngleY
+        ///     9. AngleZ
+        ///     10. MagX
+        ///     11. MagY
+        ///     12. MagZ
+        ///     13. AccM
+        ///     14. AsM
+        ///     15. Q0
+        ///     16. Q1
+        ///     17. Q2
+        ///     18. Q3
         /// </summary>
         private string GetDeviceData(Bwt901ble BWT901BLE)
         {
             StringBuilder builder = new StringBuilder();
-            builder.Append(BWT901BLE.GetDeviceName()).Append("\n");
+            // 设备名称
+            builder.Append(BWT901BLE.GetDeviceName()).Append(" ");
             // 加速度
-            // Acc
-            builder.Append("AccX").Append(":").Append(BWT901BLE.GetDeviceData(WitSensorKey.AccX)).Append("g \t");
-            builder.Append("AccY").Append(":").Append(BWT901BLE.GetDeviceData(WitSensorKey.AccY)).Append("g \t");
-            builder.Append("AccZ").Append(":").Append(BWT901BLE.GetDeviceData(WitSensorKey.AccZ)).Append("g \n");
+            builder.Append(BWT901BLE.GetDeviceData(WitSensorKey.AccX)).Append(" ");
+            builder.Append(BWT901BLE.GetDeviceData(WitSensorKey.AccY)).Append(" ");
+            builder.Append(BWT901BLE.GetDeviceData(WitSensorKey.AccZ)).Append(" ");
             // 角速度
-            // Gyro
-            builder.Append("GyroX").Append(":").Append(BWT901BLE.GetDeviceData(WitSensorKey.AsX)).Append("°/s \t");
-            builder.Append("GyroY").Append(":").Append(BWT901BLE.GetDeviceData(WitSensorKey.AsY)).Append("°/s \t");
-            builder.Append("GyroZ").Append(":").Append(BWT901BLE.GetDeviceData(WitSensorKey.AsZ)).Append("°/s \n");
+            builder.Append(BWT901BLE.GetDeviceData(WitSensorKey.AsX)).Append(" ");
+            builder.Append(BWT901BLE.GetDeviceData(WitSensorKey.AsY)).Append(" ");
+            builder.Append(BWT901BLE.GetDeviceData(WitSensorKey.AsZ)).Append(" ");
             // 角度
-            // Angle
-            builder.Append("AngleX").Append(":").Append(BWT901BLE.GetDeviceData(WitSensorKey.AngleX)).Append("° \t");
-            builder.Append("AngleY").Append(":").Append(BWT901BLE.GetDeviceData(WitSensorKey.AngleY)).Append("° \t");
-            builder.Append("AngleZ").Append(":").Append(BWT901BLE.GetDeviceData(WitSensorKey.AngleZ)).Append("° \n");
+            builder.Append(BWT901BLE.GetDeviceData(WitSensorKey.AngleX)).Append(" ");
+            builder.Append(BWT901BLE.GetDeviceData(WitSensorKey.AngleY)).Append(" ");
+            builder.Append(BWT901BLE.GetDeviceData(WitSensorKey.AngleZ)).Append(" ");
             // 磁场
-            // Mag
-            builder.Append("MagX").Append(":").Append(BWT901BLE.GetDeviceData(WitSensorKey.HX)).Append("uT \t");
-            builder.Append("MagY").Append(":").Append(BWT901BLE.GetDeviceData(WitSensorKey.HY)).Append("uT \t");
-            builder.Append("MagZ").Append(":").Append(BWT901BLE.GetDeviceData(WitSensorKey.HZ)).Append("uT \n");
-            // 版本号
-            // VersionNumber
-            builder.Append("VersionNumber").Append(":").Append(BWT901BLE.GetDeviceData(WitSensorKey.VersionNumber)).Append("\n");
+            builder.Append(BWT901BLE.GetDeviceData(WitSensorKey.HX)).Append(" ");
+            builder.Append(BWT901BLE.GetDeviceData(WitSensorKey.HY)).Append(" ");
+            builder.Append(BWT901BLE.GetDeviceData(WitSensorKey.HZ)).Append(" ");
+            // 加速度矢量和
+            builder.Append(BWT901BLE.GetDeviceData(WitSensorKey.AccM)).Append(" ");
+            // 角速度矢量和
+            builder.Append(BWT901BLE.GetDeviceData(WitSensorKey.AsM)).Append(" ");
+            // 四 元 数 0
+            builder.Append(BWT901BLE.GetDeviceData(WitSensorKey.Q0)).Append(" ");
+            // 四 元 数 1
+            builder.Append(BWT901BLE.GetDeviceData(WitSensorKey.Q1)).Append(" ");
+            // 四 元 数 2
+            builder.Append(BWT901BLE.GetDeviceData(WitSensorKey.Q2)).Append(" ");
+            // 四 元 数 3
+            builder.Append(BWT901BLE.GetDeviceData(WitSensorKey.Q3)).Append(" ");
+            
             return builder.ToString();
         }
 
         /// <summary>
         /// 加计校准
         /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
         private void appliedCalibrationButton_Click(object sender, EventArgs e)
         {
             // 所有连接的蓝牙设备都加计校准
@@ -289,13 +304,11 @@ namespace Wit.Example_BWT901BLE
             }
         }
 
-        
+
 
         /// <summary>
         /// 开始磁场校准
         /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
         private void startFieldCalibrationButton_Click(object sender, EventArgs e)
         {
             // 开始所有连接的蓝牙设备的磁场校准
@@ -325,8 +338,6 @@ namespace Wit.Example_BWT901BLE
         /// <summary>
         /// 结束磁场校准
         /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
         private void endFieldCalibrationButton_Click(object sender, EventArgs e)
         {
 
@@ -353,11 +364,7 @@ namespace Wit.Example_BWT901BLE
             }
         }
 
-        /// <summary>
-        /// 事件处理器
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
+
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
