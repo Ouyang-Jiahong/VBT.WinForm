@@ -117,14 +117,144 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="&gt;&gt;NumberOfPeakPowerRichTextBox.Name" xml:space="preserve">
+    <value>NumberOfPeakPowerRichTextBox</value>
+  </data>
+  <data name="&gt;&gt;NumberOfPeakPowerRichTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NumberOfPeakPowerRichTextBox.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;NumberOfPeakPowerRichTextBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;NumberOfPeakPowerButton.Name" xml:space="preserve">
+    <value>NumberOfPeakPowerButton</value>
+  </data>
+  <data name="&gt;&gt;NumberOfPeakPowerButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NumberOfPeakPowerButton.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;NumberOfPeakPowerButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;NumberOfCentripetalTimeRichTextBox.Name" xml:space="preserve">
+    <value>NumberOfCentripetalTimeRichTextBox</value>
+  </data>
+  <data name="&gt;&gt;NumberOfCentripetalTimeRichTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NumberOfCentripetalTimeRichTextBox.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;NumberOfCentripetalTimeRichTextBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;NumberOfCentripetalTimeButton.Name" xml:space="preserve">
+    <value>NumberOfCentripetalTimeButton</value>
+  </data>
+  <data name="&gt;&gt;NumberOfCentripetalTimeButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NumberOfCentripetalTimeButton.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;NumberOfCentripetalTimeButton.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;NumberOfSpeedRichTextBox.Name" xml:space="preserve">
+    <value>NumberOfSpeedRichTextBox</value>
+  </data>
+  <data name="&gt;&gt;NumberOfSpeedRichTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NumberOfSpeedRichTextBox.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;NumberOfSpeedRichTextBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;NumberOfSpeedButton.Name" xml:space="preserve">
+    <value>NumberOfSpeedButton</value>
+  </data>
+  <data name="&gt;&gt;NumberOfSpeedButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NumberOfSpeedButton.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;NumberOfSpeedButton.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;NumberOfMovementRichTextBox.Name" xml:space="preserve">
+    <value>NumberOfMovementRichTextBox</value>
+  </data>
+  <data name="&gt;&gt;NumberOfMovementRichTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NumberOfMovementRichTextBox.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;NumberOfMovementRichTextBox.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;NumberOfMovementButton.Name" xml:space="preserve">
+    <value>NumberOfMovementButton</value>
+  </data>
+  <data name="&gt;&gt;NumberOfMovementButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NumberOfMovementButton.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;NumberOfMovementButton.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="groupBox1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>580, 0</value>
+  </data>
+  <data name="groupBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>8, 8, 8, 8</value>
+  </data>
+  <data name="groupBox1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>8, 8, 8, 8</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1676, 886</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>数据显示</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
   <data name="NumberOfPeakPowerRichTextBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>508, 573</value>
   </data>
   <data name="NumberOfPeakPowerRichTextBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>331, 300</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="NumberOfPeakPowerRichTextBox.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
   </data>
@@ -143,7 +273,6 @@
   <data name="&gt;&gt;NumberOfPeakPowerRichTextBox.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="NumberOfPeakPowerButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -324,39 +453,6 @@
   <data name="&gt;&gt;NumberOfMovementButton.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="groupBox1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>580, 0</value>
-  </data>
-  <data name="groupBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>8, 8, 8, 8</value>
-  </data>
-  <data name="groupBox1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>8, 8, 8, 8</value>
-  </data>
-  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>892, 886</value>
-  </data>
-  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="groupBox1.Text" xml:space="preserve">
-    <value>数据显示</value>
-  </data>
-  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
   <data name="&gt;&gt;DebugGroupBox.Name" xml:space="preserve">
     <value>DebugGroupBox</value>
   </data>
@@ -406,7 +502,7 @@
     <value>0, 0, 25, 0</value>
   </data>
   <data name="leftPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>580, 1208</value>
+    <value>580, 1507</value>
   </data>
   <data name="leftPanel.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -457,7 +553,7 @@
     <value>0, 904</value>
   </data>
   <data name="DebugGroupBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>555, 304</value>
+    <value>555, 603</value>
   </data>
   <data name="DebugGroupBox.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -1176,21 +1272,6 @@
   <data name="&gt;&gt;TrainingProgramButton.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
-  <data name="DebugRichTextBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="DebugRichTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 38</value>
-  </data>
-  <data name="DebugRichTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>886, 281</value>
-  </data>
-  <data name="DebugRichTextBox.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="DebugRichTextBox.Text" xml:space="preserve">
-    <value />
-  </data>
   <data name="&gt;&gt;DebugRichTextBox.Name" xml:space="preserve">
     <value>DebugRichTextBox</value>
   </data>
@@ -1210,7 +1291,7 @@
     <value>580, 886</value>
   </data>
   <data name="VisualizationGroupBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>892, 322</value>
+    <value>1676, 621</value>
   </data>
   <data name="VisualizationGroupBox.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -1230,6 +1311,33 @@
   <data name="&gt;&gt;VisualizationGroupBox.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="DebugRichTextBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="DebugRichTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 38</value>
+  </data>
+  <data name="DebugRichTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1670, 580</value>
+  </data>
+  <data name="DebugRichTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="DebugRichTextBox.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;DebugRichTextBox.Name" xml:space="preserve">
+    <value>DebugRichTextBox</value>
+  </data>
+  <data name="&gt;&gt;DebugRichTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DebugRichTextBox.Parent" xml:space="preserve">
+    <value>VisualizationGroupBox</value>
+  </data>
+  <data name="&gt;&gt;DebugRichTextBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -1237,7 +1345,7 @@
     <value>15, 30</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1472, 1208</value>
+    <value>2256, 1507</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
