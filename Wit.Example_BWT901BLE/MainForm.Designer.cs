@@ -240,6 +240,7 @@ namespace Wit.Example_BWT901BLE
             resources.ApplyResources(this.StartTrainingButton, "StartTrainingButton");
             this.StartTrainingButton.Name = "StartTrainingButton";
             this.StartTrainingButton.UseVisualStyleBackColor = true;
+            this.StartTrainingButton.Click += new System.EventHandler(this.StartTraining);
             // 
             // button1
             // 
@@ -287,14 +288,14 @@ namespace Wit.Example_BWT901BLE
             resources.ApplyResources(this.DebugRichTextBox, "DebugRichTextBox");
             this.DebugRichTextBox.Name = "DebugRichTextBox";
             // 
-            // Form1
+            // MainForm
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.VisualizationGroupBox);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.leftPanel);
-            this.Name = "Form1";
+            this.Name = "MainForm";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainFormClosing);
             this.Load += new System.EventHandler(this.MainFormLoad);
             this.groupBox1.ResumeLayout(false);

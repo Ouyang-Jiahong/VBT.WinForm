@@ -380,5 +380,75 @@ namespace Wit.Example_BWT901BLE
             CalibrationForm calibrationForm = new CalibrationForm();
             calibrationForm.ShowDialog();
         }
+
+        private void StartTraining(object sender, EventArgs e)
+        {
+            // 创建变量
+            double vx = 0;
+            double vy = 0;
+            double vz = 0;
+            double px = 0;
+            double py = 0;
+            double pz = 0;
+            double AccX = 0;
+            double AccY = 0;
+            double AccZ = 0;
+            double GyroX = 0;
+            double GyroY = 0;
+            double GyroZ = 0;
+            double AngleX = 0;
+            double AngleY = 0;
+            double AngleZ = 0;
+            double MagX = 0;
+            double MagY = 0;
+            double MagZ = 0;
+            double AccM = 0;
+            double AsM = 0;
+            double Q0 = 0; 
+            double Q1 = 0;
+            double Q2 = 0;
+            double Q3 = 0;
+
+            while (true)
+            {
+                // 获取数据字符串，并将数据分解存入数组
+                // 依次为
+                //     1. AccX
+                //     2. AccY
+                //     3. AccZ
+                //     4. GyroX
+                //     5. GyroY
+                //     6. GyroZ
+                //     7. AngleX
+                //     8. AngleY
+                //     9. AngleZ
+                //     10. MagX
+                //     11. MagY
+                //     12. MagZ
+                //     13. AccM
+                //     14. AsM
+                //     15. Q0
+                //     16. Q1
+                //     17. Q2
+                //     18. Q3
+                string DeviceData = "";
+                Thread.Sleep(5);
+                // 刷新所有连接设备的数据
+                for (int i = 0; i < FoundDeviceDict.Count; i++)
+                {
+                    var keyValue = FoundDeviceDict.ElementAt(i);
+                    Bwt901ble bWT901BLE = keyValue.Value;
+                    if (bWT901BLE.IsOpen())
+                    {
+                        DeviceData += GetDeviceData(bWT901BLE);
+                    }
+                }
+                // 使用Split方法按照空格拆分字符串  
+                string[] dataArray = DeviceData.Split(' ');
+
+                // 速度更新循环
+
+            }
+        }
     }
 }

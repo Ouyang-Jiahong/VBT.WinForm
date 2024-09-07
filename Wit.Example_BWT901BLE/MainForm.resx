@@ -117,144 +117,14 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="&gt;&gt;NumberOfPeakPowerRichTextBox.Name" xml:space="preserve">
-    <value>NumberOfPeakPowerRichTextBox</value>
-  </data>
-  <data name="&gt;&gt;NumberOfPeakPowerRichTextBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NumberOfPeakPowerRichTextBox.Parent" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;NumberOfPeakPowerRichTextBox.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;NumberOfPeakPowerButton.Name" xml:space="preserve">
-    <value>NumberOfPeakPowerButton</value>
-  </data>
-  <data name="&gt;&gt;NumberOfPeakPowerButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NumberOfPeakPowerButton.Parent" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;NumberOfPeakPowerButton.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;NumberOfCentripetalTimeRichTextBox.Name" xml:space="preserve">
-    <value>NumberOfCentripetalTimeRichTextBox</value>
-  </data>
-  <data name="&gt;&gt;NumberOfCentripetalTimeRichTextBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NumberOfCentripetalTimeRichTextBox.Parent" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;NumberOfCentripetalTimeRichTextBox.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;NumberOfCentripetalTimeButton.Name" xml:space="preserve">
-    <value>NumberOfCentripetalTimeButton</value>
-  </data>
-  <data name="&gt;&gt;NumberOfCentripetalTimeButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NumberOfCentripetalTimeButton.Parent" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;NumberOfCentripetalTimeButton.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;NumberOfSpeedRichTextBox.Name" xml:space="preserve">
-    <value>NumberOfSpeedRichTextBox</value>
-  </data>
-  <data name="&gt;&gt;NumberOfSpeedRichTextBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NumberOfSpeedRichTextBox.Parent" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;NumberOfSpeedRichTextBox.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;NumberOfSpeedButton.Name" xml:space="preserve">
-    <value>NumberOfSpeedButton</value>
-  </data>
-  <data name="&gt;&gt;NumberOfSpeedButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NumberOfSpeedButton.Parent" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;NumberOfSpeedButton.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;NumberOfMovementRichTextBox.Name" xml:space="preserve">
-    <value>NumberOfMovementRichTextBox</value>
-  </data>
-  <data name="&gt;&gt;NumberOfMovementRichTextBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NumberOfMovementRichTextBox.Parent" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;NumberOfMovementRichTextBox.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;NumberOfMovementButton.Name" xml:space="preserve">
-    <value>NumberOfMovementButton</value>
-  </data>
-  <data name="&gt;&gt;NumberOfMovementButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NumberOfMovementButton.Parent" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;NumberOfMovementButton.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="groupBox1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>580, 0</value>
-  </data>
-  <data name="groupBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>8, 8, 8, 8</value>
-  </data>
-  <data name="groupBox1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>8, 8, 8, 8</value>
-  </data>
-  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1676, 886</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="groupBox1.Text" xml:space="preserve">
-    <value>数据显示</value>
-  </data>
-  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
   <data name="NumberOfPeakPowerRichTextBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>508, 573</value>
   </data>
   <data name="NumberOfPeakPowerRichTextBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>331, 300</value>
   </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="NumberOfPeakPowerRichTextBox.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
   </data>
@@ -273,6 +143,7 @@
   <data name="&gt;&gt;NumberOfPeakPowerRichTextBox.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="NumberOfPeakPowerButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -453,125 +324,41 @@
   <data name="&gt;&gt;NumberOfMovementButton.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="&gt;&gt;DebugGroupBox.Name" xml:space="preserve">
-    <value>DebugGroupBox</value>
+  <data name="groupBox1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
   </data>
-  <data name="&gt;&gt;DebugGroupBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>580, 0</value>
   </data>
-  <data name="&gt;&gt;DebugGroupBox.Parent" xml:space="preserve">
-    <value>leftPanel</value>
-  </data>
-  <data name="&gt;&gt;DebugGroupBox.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;groupBox3.Name" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;groupBox3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox3.Parent" xml:space="preserve">
-    <value>leftPanel</value>
-  </data>
-  <data name="&gt;&gt;groupBox3.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
-    <value>leftPanel</value>
-  </data>
-  <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="leftPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Left</value>
-  </data>
-  <data name="leftPanel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="leftPanel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="groupBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>8, 8, 8, 8</value>
   </data>
-  <data name="leftPanel.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 25, 0</value>
+  <data name="groupBox1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>8, 8, 8, 8</value>
   </data>
-  <data name="leftPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>580, 1507</value>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1676, 886</value>
   </data>
-  <data name="leftPanel.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
   </data>
-  <data name="&gt;&gt;leftPanel.Name" xml:space="preserve">
-    <value>leftPanel</value>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>数据显示</value>
   </data>
-  <data name="&gt;&gt;leftPanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
   </data>
-  <data name="&gt;&gt;leftPanel.Parent" xml:space="preserve">
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;leftPanel.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="DebugGroupBox.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
-  </data>
-  <data name="&gt;&gt;button3.Name" xml:space="preserve">
-    <value>button3</value>
-  </data>
-  <data name="&gt;&gt;button3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button3.Parent" xml:space="preserve">
-    <value>DebugGroupBox</value>
-  </data>
-  <data name="&gt;&gt;button3.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;button2.Name" xml:space="preserve">
-    <value>button2</value>
-  </data>
-  <data name="&gt;&gt;button2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button2.Parent" xml:space="preserve">
-    <value>DebugGroupBox</value>
-  </data>
-  <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="DebugGroupBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="DebugGroupBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 904</value>
-  </data>
-  <data name="DebugGroupBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>555, 603</value>
-  </data>
-  <data name="DebugGroupBox.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="DebugGroupBox.Text" xml:space="preserve">
-    <value>调试设置</value>
-  </data>
-  <data name="&gt;&gt;DebugGroupBox.Name" xml:space="preserve">
-    <value>DebugGroupBox</value>
-  </data>
-  <data name="&gt;&gt;DebugGroupBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;DebugGroupBox.Parent" xml:space="preserve">
-    <value>leftPanel</value>
-  </data>
-  <data name="&gt;&gt;DebugGroupBox.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="button3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -627,113 +414,35 @@
   <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="groupBox3.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="DebugGroupBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
   </data>
-  <data name="&gt;&gt;CloseOffVisualizationButton.Name" xml:space="preserve">
-    <value>CloseOffVisualizationButton</value>
+  <data name="DebugGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 904</value>
   </data>
-  <data name="&gt;&gt;CloseOffVisualizationButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="DebugGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>555, 603</value>
   </data>
-  <data name="&gt;&gt;CloseOffVisualizationButton.Parent" xml:space="preserve">
-    <value>groupBox3</value>
+  <data name="DebugGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
   </data>
-  <data name="&gt;&gt;CloseOffVisualizationButton.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="DebugGroupBox.Text" xml:space="preserve">
+    <value>调试设置</value>
   </data>
-  <data name="&gt;&gt;CloseOffVoiceAnnouncementButton.Name" xml:space="preserve">
-    <value>CloseOffVoiceAnnouncementButton</value>
+  <data name="&gt;&gt;DebugGroupBox.Name" xml:space="preserve">
+    <value>DebugGroupBox</value>
   </data>
-  <data name="&gt;&gt;CloseOffVoiceAnnouncementButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;CloseOffVoiceAnnouncementButton.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;CloseOffVoiceAnnouncementButton.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;TurnOnVoiceAnnouncementButton.Name" xml:space="preserve">
-    <value>TurnOnVoiceAnnouncementButton</value>
-  </data>
-  <data name="&gt;&gt;TurnOnVoiceAnnouncementButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TurnOnVoiceAnnouncementButton.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;TurnOnVoiceAnnouncementButton.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;SensorCalibrationButton.Name" xml:space="preserve">
-    <value>SensorCalibrationButton</value>
-  </data>
-  <data name="&gt;&gt;SensorCalibrationButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;SensorCalibrationButton.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;SensorCalibrationButton.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;TurnOnVisualizationButton.Name" xml:space="preserve">
-    <value>TurnOnVisualizationButton</value>
-  </data>
-  <data name="&gt;&gt;TurnOnVisualizationButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TurnOnVisualizationButton.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;TurnOnVisualizationButton.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;TrainingHistorySearchButton.Name" xml:space="preserve">
-    <value>TrainingHistorySearchButton</value>
-  </data>
-  <data name="&gt;&gt;TrainingHistorySearchButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TrainingHistorySearchButton.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;TrainingHistorySearchButton.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="groupBox3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="groupBox3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 547</value>
-  </data>
-  <data name="groupBox3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>8, 8, 8, 8</value>
-  </data>
-  <data name="groupBox3.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>8, 8, 8, 8</value>
-  </data>
-  <data name="groupBox3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>555, 357</value>
-  </data>
-  <data name="groupBox3.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="groupBox3.Text" xml:space="preserve">
-    <value>副窗口</value>
-  </data>
-  <data name="&gt;&gt;groupBox3.Name" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;groupBox3.Type" xml:space="preserve">
+  <data name="&gt;&gt;DebugGroupBox.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;groupBox3.Parent" xml:space="preserve">
+  <data name="&gt;&gt;DebugGroupBox.Parent" xml:space="preserve">
     <value>leftPanel</value>
   </data>
-  <data name="&gt;&gt;groupBox3.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="&gt;&gt;DebugGroupBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="groupBox3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="CloseOffVisualizationButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -897,149 +606,41 @@
   <data name="&gt;&gt;TrainingHistorySearchButton.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="groupBox2.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;StopTrainingButton.Name" xml:space="preserve">
-    <value>StopTrainingButton</value>
-  </data>
-  <data name="&gt;&gt;StopTrainingButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;StopTrainingButton.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;StopTrainingButton.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;PauseTrainingButton.Name" xml:space="preserve">
-    <value>PauseTrainingButton</value>
-  </data>
-  <data name="&gt;&gt;PauseTrainingButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;PauseTrainingButton.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;PauseTrainingButton.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;StartTrainingButton.Name" xml:space="preserve">
-    <value>StartTrainingButton</value>
-  </data>
-  <data name="&gt;&gt;StartTrainingButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;StartTrainingButton.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;StartTrainingButton.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;button1.Name" xml:space="preserve">
-    <value>button1</value>
-  </data>
-  <data name="&gt;&gt;button1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;PersonalDataSettingButton.Name" xml:space="preserve">
-    <value>PersonalDataSettingButton</value>
-  </data>
-  <data name="&gt;&gt;PersonalDataSettingButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;PersonalDataSettingButton.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;PersonalDataSettingButton.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;TrainingLoadRichTextBox.Name" xml:space="preserve">
-    <value>TrainingLoadRichTextBox</value>
-  </data>
-  <data name="&gt;&gt;TrainingLoadRichTextBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TrainingLoadRichTextBox.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;TrainingLoadRichTextBox.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;TrainingLoadButton.Name" xml:space="preserve">
-    <value>TrainingLoadButton</value>
-  </data>
-  <data name="&gt;&gt;TrainingLoadButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TrainingLoadButton.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;TrainingLoadButton.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;TrainingProgramRichTextBox.Name" xml:space="preserve">
-    <value>TrainingProgramRichTextBox</value>
-  </data>
-  <data name="&gt;&gt;TrainingProgramRichTextBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TrainingProgramRichTextBox.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;TrainingProgramRichTextBox.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;TrainingProgramButton.Name" xml:space="preserve">
-    <value>TrainingProgramButton</value>
-  </data>
-  <data name="&gt;&gt;TrainingProgramButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TrainingProgramButton.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;TrainingProgramButton.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="groupBox2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+  <data name="groupBox3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
   </data>
-  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
+  <data name="groupBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 547</value>
   </data>
-  <data name="groupBox2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="groupBox3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>8, 8, 8, 8</value>
   </data>
-  <data name="groupBox2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="groupBox3.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>8, 8, 8, 8</value>
   </data>
-  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>555, 547</value>
+  <data name="groupBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>555, 357</value>
   </data>
-  <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+  <data name="groupBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
   </data>
-  <data name="groupBox2.Text" xml:space="preserve">
-    <value>功能区</value>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>副窗口</value>
   </data>
-  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
-    <value>groupBox2</value>
+  <data name="&gt;&gt;groupBox3.Name" xml:space="preserve">
+    <value>groupBox3</value>
   </data>
-  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
+  <data name="&gt;&gt;groupBox3.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
+  <data name="&gt;&gt;groupBox3.Parent" xml:space="preserve">
     <value>leftPanel</value>
   </data>
-  <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="&gt;&gt;groupBox3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="groupBox2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="StopTrainingButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -1272,6 +873,84 @@
   <data name="&gt;&gt;TrainingProgramButton.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
+  <data name="groupBox2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="groupBox2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>8, 8, 8, 8</value>
+  </data>
+  <data name="groupBox2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>8, 8, 8, 8</value>
+  </data>
+  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>555, 547</value>
+  </data>
+  <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>功能区</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
+    <value>leftPanel</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="leftPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="leftPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="leftPanel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>8, 8, 8, 8</value>
+  </data>
+  <data name="leftPanel.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 25, 0</value>
+  </data>
+  <data name="leftPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>580, 1507</value>
+  </data>
+  <data name="leftPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;leftPanel.Name" xml:space="preserve">
+    <value>leftPanel</value>
+  </data>
+  <data name="&gt;&gt;leftPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;leftPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;leftPanel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="DebugRichTextBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="DebugRichTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 38</value>
+  </data>
+  <data name="DebugRichTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1670, 580</value>
+  </data>
+  <data name="DebugRichTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="DebugRichTextBox.Text" xml:space="preserve">
+    <value />
+  </data>
   <data name="&gt;&gt;DebugRichTextBox.Name" xml:space="preserve">
     <value>DebugRichTextBox</value>
   </data>
@@ -1309,33 +988,6 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;VisualizationGroupBox.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="DebugRichTextBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="DebugRichTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 38</value>
-  </data>
-  <data name="DebugRichTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1670, 580</value>
-  </data>
-  <data name="DebugRichTextBox.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="DebugRichTextBox.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;DebugRichTextBox.Name" xml:space="preserve">
-    <value>DebugRichTextBox</value>
-  </data>
-  <data name="&gt;&gt;DebugRichTextBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;DebugRichTextBox.Parent" xml:space="preserve">
-    <value>VisualizationGroupBox</value>
-  </data>
-  <data name="&gt;&gt;DebugRichTextBox.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -1430,7 +1082,7 @@
     <value>强军牌VBT辅助仪器</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>Form1</value>
+    <value>MainForm</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
