@@ -82,6 +82,7 @@
     <Compile Include="CalibrationForm.Designer.cs">
       <DependentUpon>CalibrationForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="GravityCompensation.cs" />
     <Compile Include="Integral.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
