@@ -263,15 +263,16 @@ namespace Wit.Example_BWT901BLE
             builder.Append(BWT901BLE.GetDeviceData(WitSensorKey.AccM)).Append(" ");
             // 角速度矢量和
             builder.Append(BWT901BLE.GetDeviceData(WitSensorKey.AsM)).Append(" ");
-            // 四 元 数 0
+            // 四元数0
             builder.Append(BWT901BLE.GetDeviceData(WitSensorKey.Q0)).Append(" ");
-            // 四 元 数 1
+            // 四元数1
             builder.Append(BWT901BLE.GetDeviceData(WitSensorKey.Q1)).Append(" ");
-            // 四 元 数 2
+            // 四元数2
             builder.Append(BWT901BLE.GetDeviceData(WitSensorKey.Q2)).Append(" ");
-            // 四 元 数 3
+            // 四元数3
             builder.Append(BWT901BLE.GetDeviceData(WitSensorKey.Q3)).Append(" ");
-            
+            // 时间戳
+            builder.Append(BWT901BLE.GetDeviceData(WitSensorKey.ChipTime)).Append(" ");
             return builder.ToString();
         }
 
@@ -383,57 +384,42 @@ namespace Wit.Example_BWT901BLE
 
         private void StartTraining(object sender, EventArgs e)
         {
-            // 创建变量
-            double vx = 0;
-            double vy = 0;
-            double vz = 0;
-            double px = 0;
-            double py = 0;
-            double pz = 0;
-            double AccX = 0;
-            double AccY = 0;
-            double AccZ = 0;
-            double GyroX = 0;
-            double GyroY = 0;
-            double GyroZ = 0;
-            double AngleX = 0;
-            double AngleY = 0;
-            double AngleZ = 0;
-            double MagX = 0;
-            double MagY = 0;
-            double MagZ = 0;
-            double AccM = 0;
-            double AsM = 0;
-            double Q0 = 0; 
-            double Q1 = 0;
-            double Q2 = 0;
-            double Q3 = 0;
-
+            // 初始化速度和位移的积分对象 
+            Integral velocityX = new Integral();
+            Integral velocityY = new Integral();
+            Integral velocityZ = new Integral();
+            Integral positionX = new Integral();
+            Integral positionY = new Integral();
+            Integral positionZ = new Integral();
+            // 初始化零速度更新对象 
+            ZeroVelocityUpdate zvu = new ZeroVelocityUpdate();  
             while (true)
             {
-                // 获取数据字符串，并将数据分解存入数组
-                // 依次为
-                //     1. AccX
-                //     2. AccY
-                //     3. AccZ
-                //     4. GyroX
-                //     5. GyroY
-                //     6. GyroZ
-                //     7. AngleX
-                //     8. AngleY
-                //     9. AngleZ
-                //     10. MagX
-                //     11. MagY
-                //     12. MagZ
-                //     13. AccM
-                //     14. AsM
-                //     15. Q0
-                //     16. Q1
-                //     17. Q2
-                //     18. Q3
+                /// 获取数据字符串，并将数据分解存入数组
+                /// 依次为：
+                /// 1.AccX
+                /// 2.AccY
+                /// 3.AccZ
+                /// 4.GyroX
+                /// 5.GyroY
+                /// 6.GyroZ
+                /// 7.AngleX
+                /// 8.AngleY
+                /// 9.AngleZ
+                /// 10.MagX
+                /// 11.MagY
+                /// 12.MagZ
+                /// 13.AccM
+                /// 14.AsM
+                /// 15.Q0
+                /// 16.Q1
+                /// 17.Q2
+                /// 18.Q3
+                /// 19.timestamp
+                ///
                 string DeviceData = "";
-                Thread.Sleep(5);
-                // 刷新所有连接设备的数据
+                Thread.Sleep(5); // 刷新频率为200Hz
+                // 刷新所有连接设备的数据（当前情况下仅支持连接1个设备）
                 for (int i = 0; i < FoundDeviceDict.Count; i++)
                 {
                     var keyValue = FoundDeviceDict.ElementAt(i);
@@ -443,11 +429,41 @@ namespace Wit.Example_BWT901BLE
                         DeviceData += GetDeviceData(bWT901BLE);
                     }
                 }
+
                 // 使用Split方法按照空格拆分字符串  
                 string[] dataArray = DeviceData.Split(' ');
 
-                // 速度更新循环
+                // 从分割的数据中提取所需信息  
+                double timestamp, accX, accY, accZ, angVelX, angVelY, angVelZ, qx, qy, qz, qw;
+                accX = Convert.ToDouble(dataArray[0]);
+                accY = Convert.ToDouble(dataArray[1]);
+                accZ = Convert.ToDouble(dataArray[2]);
+                angVelX = Convert.ToDouble(dataArray[6]);
+                angVelY = Convert.ToDouble(dataArray[7]);
+                angVelZ = Convert.ToDouble(dataArray[8]);
+                qw = Convert.ToDouble(dataArray[14]);
+                qx = Convert.ToDouble(dataArray[15]);
+                qy = Convert.ToDouble(dataArray[16]);
+                qz = Convert.ToDouble(dataArray[17]);
+                timestamp = Convert.ToDouble(dataArray[18]);
+                // 使用四元数进行重力补偿  
+                double[] acc_compensated = GravityCompensation.CompensateGravity(new double[] { accX, accY, accZ }, new double[] { qw, qx, qy, qz });
 
+                // 判断是否处于静态  
+                bool is_static = zvu.Update(acc_compensated, new double[] { angVelX, angVelY, angVelZ });
+
+                double dt = 0.01;  // 设定时间间隔为0.01秒  
+                if (!is_static)  // 如果不是静态  
+                {
+                    // 使用积分计算速度和位移  
+                    double vx = velocityX.Integrate(timestamp, timestamp + dt, 0, acc_compensated[0]);
+                    double vy = velocityY.Integrate(timestamp, timestamp + dt, 0, acc_compensated[1]);
+                    double vz = velocityZ.Integrate(timestamp, timestamp + dt, 0, acc_compensated[2]);
+
+                    double px = positionX.Integrate(timestamp, timestamp + dt, 0, vx);
+                    double py = positionY.Integrate(timestamp, timestamp + dt, 0, vy);
+                    double pz = positionZ.Integrate(timestamp, timestamp + dt, 0, vz);
+                }
             }
         }
     }
