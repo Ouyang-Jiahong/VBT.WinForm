@@ -9,7 +9,7 @@ namespace LQWVJE.DAL
         /// <summary>
         /// ConnectionString样例：Data Source=Test.db3;Pooling=true;FailIfMissing=false
         /// </summary>
-        public static string ConnectionString { get; set; }
+        public static string ConnectionString = "Data Source=data\\data.db;Pooling=ture;FailIfMissing=false";
 
         /// <summary>
         /// 参数设置
