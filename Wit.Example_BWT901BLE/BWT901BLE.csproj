@@ -82,6 +82,7 @@
     <Compile Include="CalibrationForm.Designer.cs">
       <DependentUpon>CalibrationForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Integral.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -111,6 +112,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="data\data.db" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
